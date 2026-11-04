@@ -1,0 +1,1079 @@
+{
+ "actualizado": "2026-10-28",
+ "inmuebles": [
+  {
+   "id": "111206797",
+   "origen": "manual",
+   "operacion": "venta",
+   "titulo": "Chalet adosado en Génova",
+   "zona": "Génova",
+   "municipio": "Palma",
+   "cat": "Casa",
+   "precio": 1500000,
+   "m2": 311,
+   "hab": 3,
+   "banos": 3,
+   "extras": "",
+   "badge": "Destacado",
+   "grupo": "Palma",
+   "fotos": 0,
+   "carpeta": null,
+   "descripcion": "Chalet adosado de 311 m² en el barrio de Génova, en Palma, con 3 dormitorios y 3 baños.\n\nPara más información, fotos y visitas, contacte con nosotros.",
+   "caracteristicas": [
+    [
+     "Características básicas",
+     [
+      "Chalet adosado",
+      "311 m² construidos",
+      "3 habitaciones",
+      "3 baños"
+     ]
+    ]
+   ],
+   "ubicacion": [
+    "Génova",
+    "Palma de Mallorca"
+   ]
+  },
+  {
+   "id": "110321054",
+   "origen": "idealista",
+   "operacion": "venta",
+   "titulo": "Casa de pueblo en el centro de Santanyí",
+   "zona": "Centro",
+   "municipio": "Santanyí",
+   "cat": "Casa",
+   "precio": 1150000,
+   "m2": 739,
+   "hab": 6,
+   "banos": null,
+   "extras": "parking",
+   "badge": "Destacado",
+   "grupo": "Mallorca",
+   "fotos": 60,
+   "carpeta": null,
+   "descripcion": "Amplia casa de pueblo en venta en pleno centro de Santanyí, a pocos pasos de todos los servicios, restaurantes y tiendas. Con unos 600 m² construidos distribuidos en 3 plantas, esta propiedad ofrece múltiples posibilidades, desde una gran vivienda familiar hasta un pequeño hotel boutique o varios apartamentos independientes (según permisos).\nLa casa cuenta actualmente con 6 habitaciones, varias zonas de estar y terrazas, así como parking privado, un auténtico lujo en el centro del pueblo. Por sus generosas dimensiones y su distribución, es ideal para quienes desean reformar y crear un proyecto a medida en una de las zonas más demandadas de Santanyí.\nUna excelente oportunidad tanto para inversores como para quienes quieran vivir todo el año en el centro del pueblo, con mucho espacio y gran potencial de reforma.",
+   "caracteristicas": [
+    [
+     "Características básicas",
+     [
+      "Chalet pareado",
+      "3 plantas",
+      "739 m² construidos, 600 m² útiles",
+      "6 habitaciones",
+      "3 baños",
+      "Parcela de 300 m²",
+      "Terraza y balcón",
+      "Plaza de garaje incluida en el precio",
+      "Segunda mano/para reformar",
+      "Trastero",
+      "Orientación sur",
+      "Construido en 1928"
+     ]
+    ],
+    [
+     "Certificado energético",
+     [
+      "Inmueble exento"
+     ]
+    ]
+   ],
+   "ubicacion": [
+    "Calle d'en Simonet, 2",
+    "Urb. can simonet 2",
+    "Distrito Santanyí",
+    "Santanyí"
+   ]
+  },
+  {
+   "id": "111949374",
+   "origen": "idealista",
+   "operacion": "venta",
+   "titulo": "Piso en el Paseo de Mallorca con vistas",
+   "zona": "Camp d'En Serralta",
+   "municipio": "Palma",
+   "cat": "Piso",
+   "precio": 850000,
+   "m2": 145,
+   "hab": 4,
+   "banos": null,
+   "extras": "5ª planta · ascensor · vistas al mar",
+   "badge": "Destacado",
+   "grupo": "Palma",
+   "fotos": 21,
+   "carpeta": null,
+   "descripcion": "Exclusiva propiedad en la quinta planta del Paseo Mallorca\nUbicada en una de las avenidas más prestigiosas y cotizadas de Palma, esta extraordinaria vivienda en quinta planta ofrece una oportunidad única para crear una residencia de lujo completamente personalizada.\nLa propiedad dispone de cuatro amplios dormitorios y tres baños, con una distribución que permite múltiples posibilidades de reforma para adaptarla a los más altos estándares de confort y diseño.\nSu mayor atractivo reside en las espectaculares vistas completamente despejadas, que se extienden sobre el Paseo Mallorca, el torrente de Sa Riera y la Bahía de Palma, ofreciendo una panorámica privilegiada que alcanza el mar y el puerto de Palma. Gracias a su altura y orientación, la vivienda disfruta de una magnífica entrada de luz natural durante todo el día y de unas vistas difíciles de encontrar en pleno centro de la ciudad.\nSituada en una ubicación privilegiada, combina la tranquilidad de una amplia avenida arbolada con la proximidad inmediata al casco histórico, Jaime III, Santa Catalina, el puerto y los mejores restaurantes, comercios y servicios de Palma. El Paseo Mallorca discurre junto al torrente de Sa Riera y constituye uno de los ejes residenciales más exclusivos de la ciudad.\nUna propiedad con un enorme potencial, ideal para quienes buscan diseñar una vivienda exclusiva en una de las mejores direcciones de Palma, disfrutando de amplitud, luminosidad y unas vistas verdaderamente excepcionales.",
+   "caracteristicas": [
+    [
+     "Características básicas",
+     [
+      "145 m² construidos, 137 m² útiles",
+      "4 habitaciones",
+      "3 baños",
+      "Terraza y balcón",
+      "Segunda mano/para reformar",
+      "Armarios empotrados",
+      "Orientación sur, este",
+      "Construido en 1965",
+      "No dispone de calefacción",
+      "Solo acceso exterior adaptado para personas con movilidad reducida"
+     ]
+    ],
+    [
+     "Edificio",
+     [
+      "5ª planta exterior",
+      "Con ascensor"
+     ]
+    ],
+    [
+     "Certificado energético",
+     [
+      "Consumo: 100 kWh/m² año",
+      "Emisiones: 10 kg CO2/m² año"
+     ]
+    ]
+   ],
+   "ubicacion": [
+    "Paseo de Mallorca, 9 b",
+    "Barrio Camp d'En Serralta",
+    "Distrito Es Forti - Son Cotoner - Son Dameto",
+    "Palma de Mallorca"
+   ]
+  },
+  {
+   "id": "112907189",
+   "origen": "idealista",
+   "operacion": "venta",
+   "titulo": "Chalet con vistas al mar en Costa d'en Blanes",
+   "zona": "Costa d'en Blanes",
+   "municipio": "Calvià",
+   "cat": "Casa",
+   "precio": 1800000,
+   "m2": 350,
+   "hab": 4,
+   "banos": 4,
+   "extras": "parking",
+   "badge": "Vistas al mar",
+   "grupo": "Mallorca",
+   "fotos": 41,
+   "carpeta": null,
+   "descripcion": "Chalet independiente en Costa d'en Blanes con Vistas al Mar.\nCon una superficie construida de 343 m², esta propiedad se distribuye en una única planta principal, facilitando la movilidad y el acceso a todas sus estancias. Disfruta de 4 amplios dormitorios, cada uno con su propio baño en suite.\n\nEl gran salón comedor, con acceso directo a una espectacular terraza de aproximadamente 120 m², ideal para disfrutar de comidas al aire libre o simplemente relajarse con vistas al mar. La cocina, espaciosa y funcional, conecta directamente con un encantador jardín posterior.\n\nEste chalet también cuenta con un porche acogedor y una piscina privada con vistas al mar. Las grandes terrazas y zonas ajardinadas ofrecen un espacio de tranquilidad y disfrute al aire libre.\nNo pierdas la oportunidad!",
+   "caracteristicas": [
+    [
+     "Características básicas",
+     [
+      "Casa o chalet independiente",
+      "2 plantas",
+      "350 m² construidos, 345 m² útiles",
+      "4 habitaciones",
+      "4 baños",
+      "Parcela de 1.056 m²",
+      "Terraza y balcón",
+      "Plaza de garaje incluida en el precio",
+      "Segunda mano/buen estado",
+      "Armarios empotrados",
+      "Trastero",
+      "Orientación sur",
+      "Construido en 1999",
+      "Calefacción individual: Gas natural"
+     ]
+    ],
+    [
+     "Equipamiento",
+     [
+      "Aire acondicionado",
+      "Piscina",
+      "Jardín"
+     ]
+    ],
+    [
+     "Certificado energético",
+     [
+      "Consumo: 104,9 kWh/m² año",
+      "Emisiones: 32,9 kg CO2/m² año"
+     ]
+    ]
+   ],
+   "ubicacion": [
+    "Distrito Costa d'En Blanes",
+    "Calvià"
+   ]
+  },
+  {
+   "id": "109972292",
+   "origen": "idealista",
+   "operacion": "venta",
+   "titulo": "Planta baja en Santa Catalina",
+   "zona": "Santa Catalina",
+   "municipio": "Palma",
+   "cat": "Piso",
+   "precio": 490000,
+   "m2": 67,
+   "hab": 1,
+   "banos": null,
+   "extras": "reformado",
+   "badge": "",
+   "grupo": "Palma",
+   "fotos": 20,
+   "carpeta": null,
+   "descripcion": "**Planta baja en Venta en Santa Catalina, Palma**\n\nDescubre este encantador piso de planta baja en el corazón del vibrante barrio de Santa Catalina, Palma. Con una superficie de 67 m2, este hogar fue completamente reformado en 2005, combinando la esencia de su construcción original de 1937 con las comodidades modernas que buscas. Su luminoso salón invita a disfrutar de momentos inolvidables, mientras que el acogedor dormitorio y el funcional baño ofrecen el refugio perfecto para parejas o solteros.\n\nEl piso cuenta con armarios empotrados que optimizan el espacio y un patio-terraza interior de 9 m2, ideal para relajarse al aire libre. La calefacción y el aire acondicionado garantizan confort durante todo el año, haciendo de este lugar un hogar acogedor en cualquier estación. Además, la ubicación es inmejorable: rodeado de restaurantes, tiendas y mercados locales, tendrás todo lo que necesitas a tu alcance.\n\nNo pierdas la oportunidad de vivir en un entorno lleno de vida y encanto. Este piso es una excelente opción tanto para inversión como para disfrutar de la calidad de vida que ofrece Santa Catalina. ¡Ven a visitarlo y déjate enamorar!",
+   "caracteristicas": [
+    [
+     "Características básicas",
+     [
+      "67 m² construidos, 57 m² útiles",
+      "1 habitación",
+      "1 baño",
+      "Terraza",
+      "Segunda mano/buen estado",
+      "Armarios empotrados",
+      "No dispone de calefacción"
+     ]
+    ],
+    [
+     "Edificio",
+     [
+      "Bajo exterior",
+      "Sin ascensor"
+     ]
+    ],
+    [
+     "Equipamiento",
+     [
+      "Aire acondicionado"
+     ]
+    ],
+    [
+     "Certificado energético",
+     [
+      "Consumo: 382,6 kWh/m² año"
+     ]
+    ]
+   ],
+   "ubicacion": [
+    "Calle de Monterrey",
+    "Barrio Sta Catalina - El Jonquet",
+    "Distrito Sta Catalina - Son Armadans - Maritim",
+    "Palma de Mallorca"
+   ]
+  },
+  {
+   "id": "112019015",
+   "origen": "idealista",
+   "operacion": "venta",
+   "titulo": "Ático dúplex en Son Espanyolet",
+   "zona": "Son Espanyolet",
+   "municipio": "Palma",
+   "cat": "Ático",
+   "precio": 1320000,
+   "m2": 230,
+   "hab": 4,
+   "banos": null,
+   "extras": "ascensor · parking",
+   "badge": "",
+   "grupo": "Palma",
+   "fotos": 24,
+   "carpeta": null,
+   "descripcion": "Ático Dúplex Espectacular en Son Espanyolet - Palma de Mallorca\n\n¡Descubre tu nuevo hogar en las alturas! Este magnífico ático dúplex de 230 m² construidos (200 m² útiles) te ofrece una experiencia de vida incomparable en la tranquila zona de Son Espanyolet. Ubicado en la planta 6 con ascensor directo, este inmueble de 2004 en buen estado combina amplitud, luminosidad y vistas espectaculares a la Serra de Tramuntana.\n\n Espacios que Enamoran\n\nEl salón principal destaca por sus techos de más de 5 metros de altura, creando una sensación de amplitud y libertad única. La estancia versátil con acceso directo a la terraza superior se adapta perfectamente como despacho, sala de estar o dormitorio de invitados. Disfruta de una luminosidad natural excepcional en todas las estancias gracias a la orientación sur y las claraboyas estratégicamente distribuidas.\n\n Cocina y Confort\n\nLa cocina independiente es amplia y está totalmente equipada, con la posibilidad de integrarla al salón mediante una reforma sencilla. Cuenta con lavadero independiente para mayor comodidad. Tres dormitorios dobles con armarios empotrados ofrecen espacio de almacenamiento generoso, mientras que el dormitorio principal incluye baño en suite privado.\n\n Terrazas y Vistas Privilegiadas\n\nDisfruta de dos espacios exteriores excepcionales: un balcón de 8 m² y una terraza superior con pérgola que regala vistas despejadas y panorámicas de la Serra de Tramuntana. Estos espacios son ideales para relajarte, disfrutar del clima mediterráneo y conectar con la naturaleza.\n\n Climatización y Tecnología\n\nAire acondicionado en todas las estancias garantiza tu confort durante todo el año. Calefacción por gas ciudad y bomba de frío/calor mantienen la temperatura perfecta en cada estación. Dos baños completos con claraboyas para ventilación y luz natural.\n\n Aparcamiento y Almacenamiento\n\nPlaza de garaje incluida en el precio con cargador para coche eléctrico, ideal para vehículos sostenibles. Trastero amplio de 11 m² para guardar todo lo que necesites sin renunciar al espacio vital.\n\n Comunidad y Servicios\n\nUrbanización de solo 20 viviendas con piscina comunitaria, jardín y zonas comunes diseñadas para el disfrute familiar. Un entorno exclusivo y seguro donde vivir en paz.\n\n**Clase energética E | Consumo 149,60 kWh/m² año | Emisiones CO₂ E (33,90 kg/m² año)**\n\n¡No esperes más! Este ático es la oportunidad perfecta para vivir con estilo, luz y vistas en Palma.",
+   "caracteristicas": [
+    [
+     "Características básicas",
+     [
+      "230 m² construidos, 200 m² útiles",
+      "4 habitaciones",
+      "2 baños",
+      "Terraza y balcón",
+      "Plaza de garaje incluida en el precio",
+      "Segunda mano/buen estado",
+      "Armarios empotrados",
+      "Trastero",
+      "Orientación sur",
+      "Construido en 2004",
+      "Calefacción individual: Gas natural"
+     ]
+    ],
+    [
+     "Edificio",
+     [
+      "6ª planta exterior",
+      "Con ascensor"
+     ]
+    ],
+    [
+     "Equipamiento",
+     [
+      "Aire acondicionado",
+      "Piscina",
+      "Jardín"
+     ]
+    ],
+    [
+     "Certificado energético",
+     [
+      "Consumo: 149,6 kWh/m² año",
+      "Emisiones: 33,9 kg CO2/m² año"
+     ]
+    ]
+   ],
+   "ubicacion": [
+    "Barrio Son Espanyolet",
+    "Distrito Sta Catalina - Son Armadans - Maritim",
+    "Palma de Mallorca"
+   ]
+  },
+  {
+   "id": "109556575",
+   "origen": "idealista",
+   "operacion": "venta",
+   "titulo": "Dúplex sobre el mar en Santa Ponça",
+   "zona": "Santa Ponça",
+   "municipio": "Calvià",
+   "cat": "Ático",
+   "precio": 1390000,
+   "m2": 122,
+   "hab": 3,
+   "banos": 3,
+   "extras": "azotea · parking",
+   "badge": "Vistas al mar",
+   "grupo": "Mallorca",
+   "fotos": 32,
+   "carpeta": null,
+   "descripcion": "¡Descubre este espectacular dúplex sobre el mar! esta propiedad ofrece un espacio ideal para disfrutar de la vida costera. Con 3 dormitorios y 3 baños, es perfecta para familias o para quienes buscan un refugio junto al mar. La azotea te brindará vistas panorámicas impresionantes, donde podrás relajarte y disfrutar de inolvidables atardeceres.\n\nUbicada en una urbanización bien cuidada, esta vivienda cuenta con zonas comunes que incluyen jardines, terrazas y áreas de juegos. Además, tendrás acceso directo al mar y a una playa rocosa, lo que convierte a este lugar en un verdadero paraíso. La ubicación es inmejorable, a solo 15 minutos de Palma, lo que te permitirá disfrutar de todas las comodidades de la ciudad sin renunciar a la tranquilidad del entorno.\n\nEste dúplex es una oportunidad única para reformar y personalizar a tu gusto. Con armarios empotrados, trastero y plaza de garaje incluida en el precio, no le falta detalle. La vivienda cuenta con ascensor, lo que garantiza comodidad en el día a día. ¡No dejes pasar la oportunidad de vivir en un lugar donde cada día se siente como vacaciones!",
+   "caracteristicas": [
+    [
+     "Características básicas",
+     [
+      "122 m² construidos, 120 m² útiles",
+      "3 habitaciones",
+      "2 baños",
+      "Terraza y balcón",
+      "Plaza de garaje incluida en el precio",
+      "Segunda mano/para reformar",
+      "Armarios empotrados",
+      "Trastero",
+      "Orientación sur",
+      "Solo acceso exterior adaptado para personas con movilidad reducida"
+     ]
+    ],
+    [
+     "Edificio",
+     [
+      "3ª planta exterior",
+      "Con ascensor"
+     ]
+    ],
+    [
+     "Equipamiento",
+     [
+      "Aire acondicionado",
+      "Piscina",
+      "Jardín"
+     ]
+    ],
+    [
+     "Certificado energético",
+     [
+      "Consumo: 382,6 kWh/m² año"
+     ]
+    ]
+   ],
+   "ubicacion": [
+    "Calle Murillo",
+    "Distrito Santa Ponça",
+    "Calvià"
+   ]
+  },
+  {
+   "id": "110605909",
+   "origen": "idealista",
+   "operacion": "venta",
+   "titulo": "Apartamento reformado en el Paseo de Mallorca",
+   "zona": "Sant Jaume",
+   "municipio": "Palma",
+   "cat": "Piso",
+   "precio": 290000,
+   "m2": 40,
+   "hab": 1,
+   "banos": null,
+   "extras": "ascensor",
+   "badge": "",
+   "grupo": "Palma",
+   "fotos": 15,
+   "carpeta": null,
+   "descripcion": "Este encantador apartamento reformado te ofrece 40 m2 de espacio perfectamente aprovechados. Al entrar, te recibe un acogedor recibidor que te guía hacia una cocina completamente equipada con electrodomésticos modernos, incluyendo lavavajillas y horno. La sala de estar, con su televisión, es el lugar ideal para relajarse tras un día explorando la ciudad. El dormitorio, con un canapé y puertas correderas, garantiza privacidad y confort.\n\nEl baño cuenta con una ducha moderna y práctica. Además, este apartamento dispone de tres armarios empotrados, ofreciendo amplio espacio de almacenamiento. Situado en la primera planta de un edificio con ascensor, disfrutarás de la comodidad del acceso fácil y de una orientación este que asegura luz natural durante el día. Con calefacción y aire acondicionado por bomba de frío/calor, estarás cómodo en cualquier estación. ¡Listo para entrar a vivir y disfrutar de todas las comodidades en pleno centro!",
+   "caracteristicas": [
+    [
+     "Características básicas",
+     [
+      "40 m² construidos, 39 m² útiles",
+      "1 habitación",
+      "1 baño",
+      "Segunda mano/buen estado",
+      "Armarios empotrados",
+      "Orientación este",
+      "No dispone de calefacción"
+     ]
+    ],
+    [
+     "Edificio",
+     [
+      "1ª planta exterior",
+      "Con ascensor"
+     ]
+    ],
+    [
+     "Equipamiento",
+     [
+      "Aire acondicionado"
+     ]
+    ],
+    [
+     "Certificado energético",
+     [
+      "Consumo: 382,6 kWh/m² año"
+     ]
+    ]
+   ],
+   "ubicacion": [
+    "Paseo de Mallorca",
+    "Barrio Sant Jaume",
+    "Distrito Ciutat Antigua",
+    "Palma de Mallorca"
+   ]
+  },
+  {
+   "id": "110311746",
+   "origen": "idealista",
+   "operacion": "venta",
+   "titulo": "Ático con terrazas en Bons Aires",
+   "zona": "Bons Aires",
+   "municipio": "Palma",
+   "cat": "Ático",
+   "precio": 1150000,
+   "m2": 218,
+   "hab": 4,
+   "banos": null,
+   "extras": "terrazas · parking",
+   "badge": "",
+   "grupo": "Palma",
+   "fotos": 29,
+   "carpeta": null,
+   "descripcion": "Ático amplio con terrazas y garaje en el centro de Palma.\n\nLa vivienda cuenta con cuatro dormitorios dobles más uno simple, todos ellos exteriores, algunos con salidas a la terraza y equipados con armarios empotrados. \nDispone de dos espaciosos salones bien diferenciados con acceso directo a una de las terrazas. Esta doble estancia permite separar ambientes y crear zonas diferenciadas para los distintos momentos del día.\n\nLa vivienda cuenta con dos baños completos, uno de ellos en suite dentro del dormitorio principal, y un lavabo adicional, ideal para invitados o para uso diario, lo que proporciona una gran comodidad en hogares con varias personas.\n\nCuenta con 2 amplias terrazas con acceso desde los distintos salones.\n\nCalidades y equipamiento\nLa vivienda se presenta en buen estado y cuenta con materiales de calidad, entre ellos:\nSuelos de mármol que aportan elegancia y frescura a todas las estancias.\nPuertas de madera maciza, que añaden calidez y carácter al conjunto.\nClimatización por gas natural (radiadores) y aire acondicionado para garantizar el confort en cualquier estación del año.\nDos ascensores en la finca, lo que agiliza el acceso y evita esperas, incluso en horarios de mayor uso.\nComodidad y funcionalidad\nEl precio de la vivienda incluye dos plazas de aparcamiento privadas, situadas en el mismo edificio, con acceso directo desde el ascensor.",
+   "caracteristicas": [
+    [
+     "Características básicas",
+     [
+      "218 m² construidos, 210 m² útiles",
+      "4 habitaciones",
+      "3 baños",
+      "Terraza",
+      "Plaza de garaje incluida en el precio",
+      "Segunda mano/buen estado",
+      "Armarios empotrados",
+      "Orientación oeste",
+      "No dispone de calefacción"
+     ]
+    ],
+    [
+     "Edificio",
+     [
+      "9ª planta exterior",
+      "Con ascensor"
+     ]
+    ],
+    [
+     "Equipamiento",
+     [
+      "Aire acondicionado"
+     ]
+    ],
+    [
+     "Certificado energético",
+     [
+      "Consumo: 382,6 kWh/m² año"
+     ]
+    ]
+   ],
+   "ubicacion": [
+    "Calle de Lluís Vives",
+    "Barrio Bons Aires",
+    "Distrito Las Avenidas",
+    "Palma de Mallorca"
+   ]
+  },
+  {
+   "id": "110715968",
+   "origen": "idealista",
+   "operacion": "venta",
+   "titulo": "Ático en la Avenida de Alemania",
+   "zona": "La Missió - Mercat",
+   "municipio": "Palma",
+   "cat": "Ático",
+   "precio": 1200000,
+   "m2": 180,
+   "hab": 4,
+   "banos": null,
+   "extras": "50 m² de terraza · ascensor",
+   "badge": "",
+   "grupo": "Palma",
+   "fotos": 31,
+   "carpeta": null,
+   "descripcion": "¡Descubre este espectacular ático en Via Alemania, el hogar de tus sueños en el corazón de Palma! Con una superficie construida de 140 m2 y 50 m2 de terraza, este acogedor ático ofrece un estilo de vida único, combinando la comodidad de una vivienda unifamiliar con la vibrante vida urbana. La luminosidad inunda cada rincón gracias a sus amplios ventanales, mientras que las excepcionales vistas a la ciudad y a la Catedral te dejarán sin aliento.\n\nImagina disfrutar de una espectacular terraza con zona de jacuzzi, perfecta para relajarte después de un largo día. El salón comedor, abierto a la terraza, crea un ambiente ideal para compartir momentos inolvidables con amigos y familiares. La cocina integrada y funcional es un sueño hecho realidad para los amantes de la gastronomía.\n\nEste ático cuenta con cuatro generosos dormitorios, tres de ellos con baño en suite, ofreciendo privacidad y confort para toda la familia. Además, dispone de armarios empotrados y un trastero, asegurando que cada espacio esté optimizado. Con calefacción por bomba de frío/calor y aire acondicionado, vivir aquí es sinónimo de bienestar durante todo el año.\n\nNo pierdas la oportunidad de entrar a vivir en este magnífico ático que combina todas las comodidades de una casa en el centro de la ciudad. ¡Contáctanos para más información y ven a verlo!",
+   "caracteristicas": [
+    [
+     "Características básicas",
+     [
+      "180 m² construidos, 170 m² útiles",
+      "4 habitaciones",
+      "3 baños",
+      "Terraza",
+      "Segunda mano/buen estado",
+      "Armarios empotrados",
+      "Trastero",
+      "Orientación oeste",
+      "Construido en 1973",
+      "No dispone de calefacción"
+     ]
+    ],
+    [
+     "Edificio",
+     [
+      "10ª planta exterior",
+      "Con ascensor"
+     ]
+    ],
+    [
+     "Equipamiento",
+     [
+      "Aire acondicionado"
+     ]
+    ],
+    [
+     "Certificado energético",
+     [
+      "Consumo: 382,6 kWh/m² año"
+     ]
+    ]
+   ],
+   "ubicacion": [
+    "Avenida de Alemania",
+    "Barrio La Missio - Mercat",
+    "Distrito Ciutat Antigua",
+    "Palma de Mallorca"
+   ]
+  },
+  {
+   "id": "109986567",
+   "origen": "idealista",
+   "operacion": "venta",
+   "titulo": "Piso reformado en el Paseo de Mallorca",
+   "zona": "Camp d'En Serralta",
+   "municipio": "Palma",
+   "cat": "Piso",
+   "precio": 850000,
+   "m2": 170,
+   "hab": 3,
+   "banos": null,
+   "extras": "chimenea",
+   "badge": "",
+   "grupo": "Palma",
+   "fotos": 24,
+   "carpeta": null,
+   "descripcion": "¡Descubre el hogar de tus sueños en este impresionante piso en venta! Con una superficie útil de 142 m2, este amplio y diáfano espacio ha sido reformado con las mejores calidades hace solo 5 años. Al entrar, te recibe un acogedor recibidor distribuidor que te guiará a través de un luminoso salón comedor, donde una chimenea añade un toque de calidez y elegancia. La cocina abierta se integra perfectamente con el resto del ambiente, ideal para disfrutar de momentos inolvidables en compañía.\n\nEste magnífico piso cuenta con 3 dormitorios dobles, cada uno con su propio baño en suite, garantizando privacidad y comodidad. El dormitorio principal destaca por su amplio vestidor. Además, hay un aseo adicional de cortesía para tus visitas. La salida a la terraza posterior ofrece un espacio exterior donde relajarse y disfrutar del aire libre.\n\nCon un cuarto de lavandería y un trastero, este piso combina funcionalidad y estilo. Su excelente aislamiento y orientación sur aseguran una luminosidad excepcional durante todo el día, creando un ambiente cálido y acogedor. La calefacción eléctrica y el aire acondicionado garantizan el confort en cualquier época del año.\n\nUbicado en una zona perfecta, este inmueble no solo destaca por su buen gusto, sino que también ofrece la posibilidad de instalar un ascensor. ¡No dejes pasar la oportunidad de vivir en este espectacular piso! Ven a visitarlo y enamórate de cada rincón.",
+   "caracteristicas": [
+    [
+     "Características básicas",
+     [
+      "170 m² construidos, 142 m² útiles",
+      "3 habitaciones",
+      "4 baños",
+      "Terraza",
+      "Segunda mano/buen estado",
+      "Armarios empotrados",
+      "Trastero",
+      "Orientación sur",
+      "No dispone de calefacción"
+     ]
+    ],
+    [
+     "Edificio",
+     [
+      "2ª planta exterior",
+      "Sin ascensor"
+     ]
+    ],
+    [
+     "Equipamiento",
+     [
+      "Aire acondicionado"
+     ]
+    ],
+    [
+     "Certificado energético",
+     [
+      "Consumo: 382,6 kWh/m² año"
+     ]
+    ]
+   ],
+   "ubicacion": [
+    "Paseo de Mallorca",
+    "Barrio Camp d'En Serralta",
+    "Distrito Es Forti - Son Cotoner - Son Dameto",
+    "Palma de Mallorca"
+   ]
+  },
+  {
+   "id": "111901379",
+   "origen": "idealista",
+   "operacion": "venta",
+   "titulo": "Villa con vistas al mar en Alcanada",
+   "zona": "Alcanada",
+   "municipio": "Alcúdia",
+   "cat": "Casa",
+   "precio": 3400000,
+   "m2": 440,
+   "hab": 6,
+   "banos": null,
+   "extras": "piscina · parking · licencia vacacional",
+   "badge": "Vistas al mar",
+   "grupo": "Mallorca",
+   "fotos": 25,
+   "carpeta": null,
+   "descripcion": "Villa exclusiva con vistas al mar, licencia vacacional y piscina en Puerto de Alcudia\n\n¡Descubre tu refugio de lujo en el corazón de Alcanada! Te presentamos este espectacular chalet independiente de 440 m² construidos con vistas privilegiadas al mar Mediterráneo. Ubicado en una zona exclusiva y tranquila junto al prestigioso Club de Golf Alcanada, este inmueble es la oportunidad perfecta para quienes buscan combinar inversión vacacional con residencia privada de ensueño.\n\nDistribución y Espacios\n\nLa propiedad se distribuye en 2 plantas completamente independientes, cada una con su propia entrada y funcionalidad. Cuenta con un total de 6 dormitorios (3 en cada planta) y 4 baños completos (2 en cada nivel), garantizando comodidad y privacidad para toda la familia o huéspedes. Ambas plantas disponen de cocina propia totalmente equipada, permitiendo una gestión independiente de cada nivel.\nLuminosidad y Vistas Excepcionales\n\nEl salón principal brinda una luminosidad excepcional con acceso directo a un balcón orientado al sur, donde disfrutarás de vistas panorámicas al mar que te enamorarán. Los armarios empotrados en toda la vivienda optimizan el almacenaje, mientras que el trastero adicional ofrece espacio extra para guardar lo que necesites.\n\n Entretenimiento y Exterior\n\nLa joya de esta propiedad es su amplia piscina privada ubicada en la terraza inferior, rodeada de una extensa zona de terraza exterior perfecta para relajarse. Además, cuenta con una acogedora zona chill out exterior donde disfrutar del clima mediterráneo. El jardín privado complementa este paraíso exterior, creando espacios ideales para desconectar.\n\nComodidades y Servicios\n\nEl garaje con acceso directo desde la cocina facilita la entrada y salida de vehículos, mientras que la plaza de aparcamiento adicional garantiza espacio suficiente. La calefacción mediante bomba de frío/calor con gas natural asegura confort durante todo el año. La parcela de 784 m² proporciona amplitud y privacidad absoluta.\n\n Ubicación Estratégica\n\nSituado en Puerto de Alcudia, disfrutarás de proximidad inmediata a playas de ensueño, restaurantes de calidad y todos los servicios necesarios. La zona es altamente demandada por su exclusividad y tranquilidad, perfecta tanto para inversión con licencia vacacional para 8 plazas como para residencia permanente.",
+   "caracteristicas": [
+    [
+     "Características básicas",
+     [
+      "Casa o chalet independiente",
+      "2 plantas",
+      "440 m² construidos, 438 m² útiles",
+      "6 habitaciones",
+      "4 baños",
+      "Parcela de 784 m²",
+      "Terraza y balcón",
+      "Plaza de garaje incluida en el precio",
+      "Segunda mano/buen estado",
+      "Armarios empotrados",
+      "Trastero",
+      "Orientación este",
+      "Construido en 1999",
+      "Calefacción individual: Gas natural"
+     ]
+    ],
+    [
+     "Equipamiento",
+     [
+      "Aire acondicionado",
+      "Piscina",
+      "Jardín"
+     ]
+    ],
+    [
+     "Certificado energético",
+     [
+      "Consumo: 382,6 kWh/m² año"
+     ]
+    ]
+   ],
+   "ubicacion": [
+    "Distrito Port d'Alcúdia - Platja d'Alcúdia",
+    "Alcúdia"
+   ]
+  },
+  {
+   "id": "111509939",
+   "origen": "idealista",
+   "operacion": "venta",
+   "titulo": "Chalet con jardín en El Terreno",
+   "zona": "El Terreno",
+   "municipio": "Palma",
+   "cat": "Casa",
+   "precio": 995000,
+   "m2": 86,
+   "hab": 3,
+   "banos": null,
+   "extras": "jardín · parking",
+   "badge": "",
+   "grupo": "Palma",
+   "fotos": 14,
+   "carpeta": null,
+   "descripcion": "Chalet Independiente con jardín y garaje en el Terreno.\n\nDescubre esta encantadora casa independiente ubicada en el deseable barrio de El Terreno, en Palma. Se trata de una propiedad con gran potencial de crecimiento y modernización, perfecta para quien busca una vivienda con carácter y posibilidades de expansión.\n\nLa vivienda actual cuenta con 86 m² construidos distribuidos en 3 dormitorios, 1 baño funcional y un acogedor salón con chimenea que invita a disfrutar de momentos en familia. La cocina está completamente equipada y conecta perfectamente con el resto de los espacios. Además, dispone de un práctico lavadero y armarios empotrados para optimizar el almacenaje.\n\nExteriormente, la propiedad es una joya. Cuenta con una parcela de 334 m² rodeada de un hermoso jardín, terrazas cubiertas y terrazas abiertas donde relajarse. La casa de jardín complementa los espacios exteriores, ofreciendo múltiples usos. El garaje para 2-3 coches y plaza de aparcamiento garantizan comodidad, mientras que el trastero proporciona espacio adicional de almacenamiento.\n\nLo más destacado es la piscina privada, ideal para disfrutar durante todo el año. La propiedad cuenta con calefacción central de gas y aire acondicionado frío-calor, asegurando confort en cualquier estación.\n\nCon posibilidad de ampliar hasta 134 m² adicionales construibles, podrás crear un espacio en la parte superior o una casa de huéspedes independiente. Construida en 1960 y en buen estado, esta casa es la inversión perfecta en una de las zonas más cotizadas de Palma.",
+   "caracteristicas": [
+    [
+     "Características básicas",
+     [
+      "Casa o chalet independiente",
+      "86 m² construidos",
+      "3 habitaciones",
+      "1 baño",
+      "Parcela de 334 m²",
+      "Terraza",
+      "Plaza de garaje incluida en el precio",
+      "Segunda mano/buen estado",
+      "Armarios empotrados",
+      "Trastero",
+      "Construido en 1960",
+      "Calefacción individual: Gas natural"
+     ]
+    ],
+    [
+     "Equipamiento",
+     [
+      "Aire acondicionado",
+      "Piscina",
+      "Jardín"
+     ]
+    ],
+    [
+     "Certificado energético",
+     [
+      "Consumo: 382,6 kWh/m² año"
+     ]
+    ]
+   ],
+   "ubicacion": [
+    "Barrio El Terreno",
+    "Distrito Sta Catalina - Son Armadans - Maritim",
+    "Palma de Mallorca"
+   ]
+  },
+  {
+   "id": "91656901",
+   "origen": "idealista",
+   "operacion": "venta",
+   "titulo": "Casas adosadas en Port d'Alcúdia",
+   "zona": "Port d'Alcúdia",
+   "municipio": "Alcúdia",
+   "cat": "Casa",
+   "precio": 695000,
+   "m2": 135,
+   "hab": 3,
+   "banos": 2,
+   "extras": "",
+   "badge": "Obra nueva",
+   "grupo": "Mallorca",
+   "fotos": 10,
+   "carpeta": null,
+   "descripcion": "Proyecto de 2 bloques con un total de 10 casas adosados con fecha previsto de finalización en 2023 se encuentra en una zona tranquila, a pocos metros del Lago Menor y cerca de restaurantes y actividades de ocio.\nLas casas se distribuyen en 2 plantas de puro lujo, con un total de 3 habitaciones dobles y 2 baños. Cuenta con un amplio salón - comedor, una cómoda cocina, una gran terraza y azotea, así como una piscina comunitaria.\nEl precio es aproximado y depende de la vivienda en concreto.\nPara mas información pueden consultar la lista de precios.",
+   "caracteristicas": [
+    [
+     "Características básicas",
+     [
+      "Casa o chalet independiente",
+      "135 m² construidos, 130 m² útiles",
+      "3 habitaciones",
+      "2 baños",
+      "Parcela de 135 m²",
+      "Terraza",
+      "Segunda mano/buen estado",
+      "Armarios empotrados",
+      "Construido en 2025",
+      "No dispone de calefacción"
+     ]
+    ],
+    [
+     "Equipamiento",
+     [
+      "Aire acondicionado",
+      "Piscina",
+      "Jardín"
+     ]
+    ],
+    [
+     "Certificado energético",
+     [
+      "Inmueble exento"
+     ]
+    ]
+   ],
+   "ubicacion": [
+    "Diseminado Disseminat 6",
+    "Distrito Port d'Alcúdia - Platja d'Alcúdia",
+    "Alcúdia"
+   ]
+  },
+  {
+   "id": "112768195",
+   "origen": "idealista",
+   "operacion": "venta",
+   "titulo": "Solar con proyecto de vivienda en Ruberts",
+   "zona": "Ruberts",
+   "municipio": "Sencelles",
+   "cat": "Terreno",
+   "precio": 225000,
+   "m2": 14622,
+   "hab": 0,
+   "banos": null,
+   "extras": "370 m² edificables · proyecto con piscina",
+   "badge": "",
+   "grupo": "Mallorca",
+   "fotos": 11,
+   "carpeta": null,
+   "descripcion": "Solar de 14.622 m² con proyecto de vivienda unifamiliar y piscina en Ruberts, Mallorca.\n\nUbicado en un entorno privilegiado, tranquilo y privado, con espectaculares vistas panorámicas al paisaje y las montañas.\n\nEl proyecto contempla una vivienda de 370 m² distribuidos en tres plantas, con 3 dormitorios en suite, amplias zonas de estar, cocina abierta, terrazas, piscina y garaje para 2 vehículos.\n\nLa vivienda está diseñada para aprovechar al máximo la luz natural, la orientación y las vistas.\n\nIMPORTANTE: El precio de venta incluye el solar y el proyecto arquitectónico, pero NO la construcción de la vivienda.",
+   "caracteristicas": [
+    [
+     "Características básicas",
+     [
+      "Superficie total del terreno 14.622 m²",
+      "Superficie mínima en venta 14.622 m²",
+      "Superficie edificable 370 m²",
+      "Acceso por carretera",
+      "A 2 km del núcleo urbano más cercano"
+     ]
+    ],
+    [
+     "Situación urbanística",
+     [
+      "Terreno urbanizable",
+      "Calificado para residencial unifamiliar (chalets)",
+      "3 plantas edificables"
+     ]
+    ]
+   ],
+   "ubicacion": [
+    "Calle Ruberts",
+    "Sencelles"
+   ]
+  },
+  {
+   "id": "110286607",
+   "origen": "idealista",
+   "operacion": "venta",
+   "titulo": "Terreno con proyecto cerca de Cala Romántica",
+   "zona": "Manacor",
+   "municipio": "Manacor",
+   "cat": "Terreno",
+   "precio": 390000,
+   "m2": 42000,
+   "hab": 0,
+   "banos": null,
+   "extras": "300 m² edificables · licencias en trámite",
+   "badge": "",
+   "grupo": "Mallorca",
+   "fotos": 20,
+   "carpeta": null,
+   "descripcion": "Se vende terreno en Manacor con proyecto y licencias en trámite\n\nOportunidad única de adquirir un terreno en Manacor, ubicado a tan solo 5 minutos en coche del mar y de calas de gran belleza como Cala Romántica.\n\nLa parcela cuenta con proyecto de obra ya realizado y aprobado por el ayuntamiento, con licencias actualmente en trámite, cuya entrega está prevista para finales de 2026.\n\nEl proyecto contempla la construcción de una vivienda unifamiliar de aproximadamente 300 m², con piscina privada, diseñada para ofrecer comodidad, amplitud y un estilo de vida mediterráneo.\n\nIdeal tanto como vivienda habitual como inversión en una de las zonas más demandadas de Mallorca.\n\nPara más información, no dude en ponerse en contacto.",
+   "caracteristicas": [
+    [
+     "Características básicas",
+     [
+      "Superficie total del terreno 42.000 m²",
+      "Superficie mínima en venta 42.000 m²",
+      "Superficie edificable 300 m²",
+      "Acceso por camino"
+     ]
+    ],
+    [
+     "Situación urbanística",
+     [
+      "Terreno urbanizable",
+      "Calificado para otra"
+     ]
+    ]
+   ],
+   "ubicacion": [
+    "Parcela 330 poligono, 33",
+    "Distrito Manacor Centro",
+    "Manacor"
+   ]
+  },
+  {
+   "id": "112546891",
+   "origen": "idealista",
+   "operacion": "alquiler",
+   "titulo": "Ático con terraza y piscina en Sant Agustí",
+   "zona": "Sant Agustí",
+   "municipio": "Palma",
+   "cat": "Ático",
+   "precio": 1500,
+   "m2": 60,
+   "hab": 1,
+   "banos": 1,
+   "extras": "terraza · piscina · parking incluido",
+   "badge": "",
+   "grupo": "Palma",
+   "fotos": 24,
+   "carpeta": null,
+   "descripcion": "Bonito ático de 60 m² situado en una zona tranquila y agradable de San Agustín, en muy buen estado de conservación y listo para entrar a vivir.\nLa vivienda dispone de un dormitorio, un baño completo y un luminoso salón-comedor con acceso a una magnífica terraza, perfecta para disfrutar del buen clima, relajarse al aire libre o crear una agradable zona de comedor exterior.\n\nCuenta con cocina equipada, calefacción y aire acondicionado, ofreciendo confort durante todo el año. El edificio dispone de ascensor.\n\nAdemás, la propiedad incluye plaza de parking y trastero, aportando comodidad y un práctico espacio de almacenamiento.\n\nUna excelente oportunidad para quienes buscan un ático cómodo, funcional y en buen estado, con el atractivo añadido de una buena terraza en una de las zonas más agradables de San Agustín.",
+   "caracteristicas": [
+    [
+     "El anunciante lo ve apropiado para",
+     [
+      "Máximo 2 personas"
+     ]
+    ],
+    [
+     "Características básicas",
+     [
+      "60 m² construidos, 58 m² útiles",
+      "1 habitación",
+      "1 baño",
+      "Terraza",
+      "Plaza de garaje incluida en el precio",
+      "Segunda mano/buen estado",
+      "Armarios empotrados",
+      "Trastero",
+      "Orientación sur",
+      "Cocina equipada y casa sin amueblar",
+      "Calefacción central"
+     ]
+    ],
+    [
+     "Edificio",
+     [
+      "3ª planta exterior",
+      "Con ascensor"
+     ]
+    ],
+    [
+     "Equipamiento",
+     [
+      "Aire acondicionado",
+      "Piscina",
+      "Jardín"
+     ]
+    ],
+    [
+     "Certificado energético",
+     [
+      "Inmueble exento"
+     ]
+    ]
+   ],
+   "ubicacion": [
+    "Calle d'Adolf Vázquez Humasqué, 9",
+    "Barrio Sant Agustí",
+    "Distrito Genova - Bonanova - Sant Agustí",
+    "Palma de Mallorca"
+   ]
+  },
+  {
+   "id": "112808925",
+   "origen": "idealista",
+   "operacion": "alquiler",
+   "titulo": "Ático reformado en la calle Sindicat",
+   "zona": "Sindicat · Centro",
+   "municipio": "Palma",
+   "cat": "Ático",
+   "precio": 2600,
+   "m2": 160,
+   "hab": 2,
+   "banos": 2,
+   "extras": "amueblado · ascensor",
+   "badge": "",
+   "grupo": "Palma",
+   "fotos": 16,
+   "carpeta": null,
+   "descripcion": "Exclusivo ático en la calle Sindicato, Palma de Mallorca\n\nEspectacular ático situado en la emblemática calle Sindicato, en pleno centro de Palma, en una finca de nueva reforma que combina diseño contemporáneo, confort y una ubicación privilegiada.\n\nLa propiedad se encuentra en un edificio completamente renovado, con viviendas nuevas y ascensor, ofreciendo un entorno moderno y elegante en una de las zonas más cotizadas de la ciudad.\n\nEl ático dispone de 2 amplias habitaciones, 2 baños completos y 1 aseo, con una distribución funcional pensada para disfrutar de la máxima comodidad. Se entrega completamente amueblado, con un estilo actual y cuidado, listo para entrar a vivir.\n\nUno de sus grandes atractivos es su impresionante terraza privada de 80 m², un espacio excepcional en pleno centro de Palma, ideal para disfrutar del clima mediterráneo, organizar comidas al aire libre, crear una zona chill-out o simplemente relajarse con total comodidad.\n\nUna propiedad única que combina la comodidad de una vivienda moderna, la amplitud de sus espacios exteriores y el privilegio de vivir en una ubicación céntrica, rodeada de comercios, restaurantes, servicios y todos los atractivos del casco histórico de Palma.\n\nUn ático exclusivo para quienes buscan diseño, comodidad y una espectacular terraza en el corazón de Palma.",
+   "caracteristicas": [
+    [
+     "El anunciante lo ve apropiado para",
+     [
+      "Máximo 2 personas"
+     ]
+    ],
+    [
+     "Características básicas",
+     [
+      "160 m² construidos, 90 m² útiles",
+      "2 habitaciones",
+      "2 baños",
+      "Terraza",
+      "Segunda mano/buen estado",
+      "Orientación sur",
+      "Amueblado y cocina equipada"
+     ]
+    ],
+    [
+     "Edificio",
+     [
+      "4ª planta exterior",
+      "Con ascensor"
+     ]
+    ],
+    [
+     "Equipamiento",
+     [
+      "Aire acondicionado"
+     ]
+    ],
+    [
+     "Certificado energético",
+     [
+      "Consumo: 161 kWh/m² año",
+      "Emisiones: 42 kg CO2/m² año"
+     ]
+    ]
+   ],
+   "ubicacion": [
+    "Calle Del Sindicat, 42",
+    "Barrio Sindicat",
+    "Distrito Ciutat Antigua",
+    "Palma de Mallorca"
+   ]
+  },
+  {
+   "id": "111650043",
+   "origen": "idealista",
+   "operacion": "alquiler",
+   "titulo": "Piso en la Avenida Jaime III",
+   "zona": "Sant Jaume",
+   "municipio": "Palma",
+   "cat": "Piso",
+   "precio": 3100,
+   "m2": 236,
+   "hab": 4,
+   "banos": 3,
+   "extras": "trastero · parking opcional 150 €/mes",
+   "badge": "",
+   "grupo": "Palma",
+   "fotos": 26,
+   "carpeta": null,
+   "descripcion": "Piso en Alquiler en Jaime III con doble plaza de garaje opcional.\n\n¡Descubre tu nuevo hogar en una de las zonas más exclusivas de Palma! Este magnífico piso de 236 m² construidos (235 m² útiles) te ofrece todo lo que necesitas para vivir con comodidad y estilo. Ubicado en la tercera planta con orientación sur, disfrutarás de una luminosidad excepcional durante todo el día.\n\nEspacios Generosos y Bien Distribuidos\n\nEl piso cuenta con 4 dormitorios dobles de amplias dimensiones, perfectos para toda la familia. El dormitorio principal destaca por su baño en suite privado y un vestidor exclusivo. Los otros tres dormitorios se complementan con 2 baños adicionales en suite, garantizando comodidad para todos. Todos los dormitorios incluyen armarios empotrados para optimizar el almacenaje.\n\n La cocina está completamente equipada con electrodomésticos de calidad.\n\nClimatización garantizada con aire acondicionado y sistema de calefacción mediante bomba de frío/calor con gas natural. El edificio dispone de ascensor para mayor accesibilidad.\n\n¡No dejes pasar esta oportunidad única en Jaime III!",
+   "caracteristicas": [
+    [
+     "Características básicas",
+     [
+      "236 m² construidos, 235 m² útiles",
+      "4 habitaciones",
+      "3 baños",
+      "Terraza y balcón",
+      "Plaza de garaje por 150 €/mes adicionales",
+      "Segunda mano/buen estado",
+      "Armarios empotrados",
+      "Trastero",
+      "Orientación sur",
+      "Cocina equipada y casa sin amueblar",
+      "Calefacción individual: Gas natural"
+     ]
+    ],
+    [
+     "Edificio",
+     [
+      "3ª planta exterior",
+      "Con ascensor"
+     ]
+    ],
+    [
+     "Equipamiento",
+     [
+      "Aire acondicionado"
+     ]
+    ],
+    [
+     "Certificado energético",
+     [
+      "Consumo: 382,6 kWh/m² año"
+     ]
+    ]
+   ],
+   "ubicacion": [
+    "Avenida de Jaume III",
+    "Barrio Sant Jaume",
+    "Distrito Ciutat Antigua",
+    "Palma de Mallorca"
+   ]
+  }
+ ]
+}

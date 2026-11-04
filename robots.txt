@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Disallow: /fuente/
+Sitemap: https://jaimetercero.com/sitemap.xml
