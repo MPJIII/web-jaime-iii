@@ -271,7 +271,8 @@ select{background-image:linear-gradient(45deg,transparent 50%,#111 50%),linear-g
 .ficha-zona{letter-spacing:.2em;font-size:.68rem}
 .ficha h3{font-size:1.55rem;font-weight:600}
 .ficha-pie{padding-top:8px}
-.ficha-precio{font-weight:600;font-size:1.7rem}
+.ficha-precio{font-weight:600;font-size:1.7rem;display:grid;gap:2px}
+.ficha-m2{font-family:var(--body);font-size:.78rem;font-weight:500;letter-spacing:.04em;color:var(--suave)}
 .ver{letter-spacing:.14em;text-transform:uppercase;font-size:.7rem}
 .barra{border-bottom:1px solid var(--linea);padding-bottom:14px;margin-bottom:30px}
 .vacio{border-radius:0}
@@ -321,15 +322,15 @@ section[id],#valoracion{scroll-margin-top:100px}
 .vender-intro{display:grid;grid-template-columns:1fr 1.1fr;gap:48px;align-items:end}
 .vender-intro h2{font-size:clamp(2.4rem,5vw,3.8rem);font-weight:500;margin-top:12px;max-width:12ch}
 .vender-texto{display:grid;gap:14px;color:#333;font-size:1.05rem;max-width:60ch}
-.vender-cifras{display:grid;grid-template-columns:repeat(3,1fr);border-block:1px solid var(--negro)}
-.vender-cifras div{padding:26px 24px;display:grid;gap:6px;align-content:start}
-.vender-cifras div+div{border-left:1px solid var(--linea)}
-.vender-cifras b{font-family:var(--display);font-size:clamp(2rem,4vw,3rem);font-weight:600;line-height:1}
-.vender-cifras span{color:var(--suave);font-size:.9rem}
-.vender-tipos ul{list-style:none;margin:18px 0 0;padding:0;display:grid;grid-template-columns:repeat(4,1fr);gap:0 32px}
-.vender-tipos li{border-top:2px solid var(--negro);padding-top:18px;display:grid;gap:6px}
-.vender-tipos h3{font-size:1.7rem}
-.vender-tipos li p{color:var(--suave);font-size:.95rem}
+.vender-especial{display:grid;grid-template-columns:minmax(0,.7fr) minmax(0,1.3fr);gap:48px;align-items:center;border-block:1px solid var(--linea);padding-block:36px}
+.vender-anos{display:flex;align-items:baseline;gap:18px}
+.vender-anos b{font-family:var(--display);font-size:clamp(3.4rem,7vw,5.2rem);font-weight:500;line-height:.9}
+.vender-anos span{color:var(--suave);font-size:.95rem;max-width:22ch;line-height:1.45}
+.vender-tipos{margin:0;display:grid}
+.vender-tipos div{display:grid;grid-template-columns:150px 1fr;gap:16px;align-items:baseline;padding:12px 0;border-top:1px solid var(--linea)}
+.vender-tipos div:first-child{border-top:0}
+.vender-tipos dt{font-size:.72rem;letter-spacing:.22em;text-transform:uppercase;font-weight:500}
+.vender-tipos dd{margin:0;font-family:var(--display);font-style:italic;font-size:1.2rem;color:#333}
 .vender-pasos ol{list-style:none;counter-reset:paso;margin:18px 0 0;padding:0;display:grid;grid-template-columns:repeat(5,1fr);gap:0 24px}
 .vender-pasos li{counter-increment:paso;display:grid;gap:8px;align-content:start;padding-top:16px;border-top:1px solid var(--linea)}
 .vender-pasos li::before{content:counter(paso,decimal-leading-zero);font-family:var(--display);font-size:2.4rem;line-height:1;color:var(--negro)}
@@ -354,8 +355,8 @@ section[id],#valoracion{scroll-margin-top:100px}
 .v-error{color:#b00020;font-size:.92rem}
 .v-hecho{background:#fff;border:1px solid var(--linea);padding:18px;display:grid;gap:10px}
 .v-hecho pre{white-space:pre-wrap;font:400 .88rem/1.5 var(--body);margin:0;color:#333;max-height:260px;overflow:auto}
-@media (max-width:980px){.vender-intro,.valoracion{grid-template-columns:1fr}.vender-tipos ul{grid-template-columns:repeat(2,1fr);gap:28px 24px}.vender-pasos ol{grid-template-columns:repeat(2,1fr);gap:28px 24px}}
-@media (max-width:640px){.vender-cifras{grid-template-columns:1fr}.vender-cifras div+div{border-left:0;border-top:1px solid var(--linea)}.vender-tipos ul,.vender-pasos ol,.v-grid{grid-template-columns:1fr}}
+@media (max-width:980px){.vender-intro,.valoracion,.vender-especial{grid-template-columns:1fr}.vender-pasos ol{grid-template-columns:repeat(2,1fr);gap:28px 24px}}
+@media (max-width:640px){.vender-tipos div{grid-template-columns:1fr;gap:2px}.vender-pasos ol,.v-grid{grid-template-columns:1fr}}
 </style>
 
 <header>
@@ -432,6 +433,7 @@ section[id],#valoracion{scroll-margin-top:100px}
         <div class="campo"><label for="b-tipo">Tipo</label><select id="b-tipo"><option value="">Cualquiera</option><option value="Piso">Piso o apartamento</option><option value="Ático">Ático o dúplex</option><option value="Casa">Casa, chalet o villa</option><option value="Terreno">Terreno</option></select></div>
         <div class="campo"><label for="b-smin">Superficie m²</label><div class="rango"><input id="b-smin" inputmode="numeric" placeholder="Desde"><i>—</i><input id="b-smax" inputmode="numeric" placeholder="Hasta" aria-label="Superficie hasta"></div></div>
         <div class="campo"><label for="b-hab">Dormitorios</label><select id="b-hab"><option value="0">Sin mínimo</option><option value="1">1 o más</option><option value="2">2 o más</option><option value="3">3 o más</option><option value="4">4 o más</option><option value="5">5 o más</option></select></div>
+        <div class="campo"><label for="b-banos">Baños</label><select id="b-banos"><option value="0">Sin mínimo</option><option value="1">1 o más</option><option value="2">2 o más</option><option value="3">3 o más</option><option value="4">4 o más</option></select></div>
       </div>
       <div class="acciones-bus"><button class="pill" type="submit" id="b-buscar">Buscar</button><button class="pill borde" type="reset" id="b-limpiar">Limpiar</button></div>
     </form>
@@ -479,20 +481,14 @@ section[id],#valoracion{scroll-margin-top:100px}
         </div>
       </div>
 
-      <div class="vender-cifras">
-        <div><b>+50 años</b><span>en la promoción y venta de inmuebles</span></div>
-        <div><b>Todo tipo</b><span>de viviendas, edificios y terrenos</span></div>
-        <div><b>Mallorca</b><span>Palma y el resto de la isla</span></div>
-      </div>
-
-      <div class="vender-tipos">
-        <p class="eti">Qué vendemos</p>
-        <ul>
-          <li><h3>Viviendas</h3><p>Pisos, áticos, casas de pueblo, chalets y villas.</p></li>
-          <li><h3>Edificios</h3><p>Edificios completos, para inversores o promotores.</p></li>
-          <li><h3>Terrenos</h3><p>Solares urbanos, parcelas y fincas rústicas.</p></li>
-          <li><h3>Promociones</h3><p>Comercialización de promociones de obra nueva.</p></li>
-        </ul>
+      <div class="vender-especial">
+        <div class="vender-anos"><b>+50</b><span>años de experiencia en la promoción y venta de inmuebles en Mallorca</span></div>
+        <dl class="vender-tipos">
+          <div><dt>Viviendas</dt><dd>Pisos, áticos, casas de pueblo, chalets y villas</dd></div>
+          <div><dt>Edificios</dt><dd>Edificios completos para inversión o rehabilitación</dd></div>
+          <div><dt>Terrenos</dt><dd>Solares urbanos, parcelas y fincas rústicas</dd></div>
+          <div><dt>Promociones</dt><dd>Comercialización de obra nueva</dd></div>
+        </dl>
       </div>
 
       <div class="vender-pasos">
@@ -747,7 +743,7 @@ const num=v=>{const n=parseInt(String(v).replace(/\D/g,""),10);return isNaN(n)?n
 let op="venta";
 function filtrar(){
   const z=$("b-zona").value.trim().toLowerCase(),pmin=num($("b-pmin").value),pmax=num($("b-pmax").value),
-  t=$("b-tipo").value,smin=num($("b-smin").value),smax=num($("b-smax").value),h=+$("b-hab").value,o=$("orden").value;
+  t=$("b-tipo").value,smin=num($("b-smin").value),smax=num($("b-smax").value),h=+$("b-hab").value,bn=+$("b-banos").value,o=$("orden").value;
   let lista=[...fichas];
   if(o==="asc")lista.sort((a,b)=>a.dataset.precio-b.dataset.precio);
   else if(o==="desc")lista.sort((a,b)=>b.dataset.precio-a.dataset.precio);
@@ -755,7 +751,7 @@ function filtrar(){
   else lista.sort((a,b)=>a.dataset.orden-b.dataset.orden);
   let n=0;
   lista.forEach(f=>{const d=f.dataset,p=+d.precio,m=+d.m2;
-    const ok=d.op===op&&(!z||d.busca.includes(z))&&(pmin==null||p>=pmin)&&(pmax==null||p<=pmax)&&(!t||d.cat===t)&&(smin==null||m>=smin)&&(smax==null||m<=smax)&&(+d.hab>=h);
+    const ok=d.op===op&&(!z||d.busca.includes(z))&&(pmin==null||p>=pmin)&&(pmax==null||p<=pmax)&&(!t||d.cat===t)&&(smin==null||m>=smin)&&(smax==null||m<=smax)&&(+d.hab>=h)&&(+d.banos>=bn);
     f.hidden=!ok;if(ok)n++;rej.appendChild(f)});
   $("contador").textContent=n+(n===1?" inmueble encontrado":" inmuebles encontrados");
   $("vacio").hidden=n>0;
@@ -767,7 +763,7 @@ document.querySelectorAll("[data-ir-op]").forEach(a=>a.addEventListener("click",
 filtrar();
 $("buscador").addEventListener("submit",e=>{e.preventDefault();filtrar();$("inmuebles").scrollIntoView({behavior:"smooth"})});
 $("buscador").addEventListener("reset",()=>setTimeout(filtrar,0));
-["b-tipo","b-hab","orden"].forEach(id=>$(id).addEventListener("change",filtrar));
+["b-tipo","b-hab","b-banos","orden"].forEach(id=>$(id).addEventListener("change",filtrar));
 $("b-zona").addEventListener("input",filtrar);
 $("menu-btn").addEventListener("click",()=>{const m=$("menu");m.hidden=!m.hidden;$("menu-btn").setAttribute("aria-expanded",String(!m.hidden))});
 document.querySelectorAll("#menu a").forEach(a=>a.addEventListener("click",()=>{$("menu").hidden=true}));
@@ -813,7 +809,7 @@ function abrirDetalle(id){const i=porId[id];if(!i)return false;
   $("det-titulo").textContent=i.titulo;
   $("det-precio").textContent=eur(i.precio)+(alq?"/mes":"");
   const cl=[[miles(i.m2),"m²"]];if(i.hab)cl.push([i.hab,"dormitorios"]);if(i.banos)cl.push([i.banos,"baños"]);
-  if(!alq&&i.m2&&i.cat!=="Terreno")cl.push([eur(i.precio/i.m2),"€/m²"]);cl.push([alq?"Alquiler":"Venta","operación"]);
+  if(i.m2){if(alq)cl.push([(i.precio/i.m2).toFixed(2).replace(".",",")+" €","€/m²/mes"]);else cl.push([eur(i.precio/i.m2),"€/m²"])}cl.push([alq?"Alquiler":"Venta","operación"]);
   $("det-claves").replaceChildren(...cl.map(([b,t])=>{const li=document.createElement("li");li.innerHTML="<b></b><span></span>";li.children[0].textContent=b;li.children[1].textContent=t;return li}));
   const desc=(i.descripcion||"").split(/\n\s*\n|\n/).map(t=>t.trim()).filter(Boolean);
   $("det-desc").replaceChildren(...desc.map(t=>{const p=document.createElement("p");p.textContent=t.replace(/\*\*/g,"");return p}));

@@ -25,6 +25,11 @@ def ficha(i, orden):
     e = html.escape
     alq = i["operacion"] == "alquiler"
     precio = eur(i["precio"]) + ("/mes" if alq else "")
+    pm2 = ""
+    if i.get("m2"):
+        v = i["precio"] / i["m2"]
+        txt = (f"{v:,.2f}".replace(",", "X").replace(".", ",").replace("X", ".") + " €/m²/mes") if alq else (eur(round(v)) + "/m²")
+        pm2 = f'<span class="ficha-m2">{txt}</span>'
     spec = [f'{int(i["m2"]):,}'.replace(",", ".") + " m²"]
     if i.get("hab"):
         spec.append(f'{i["hab"]} dorm.')
@@ -50,13 +55,13 @@ def ficha(i, orden):
         enlace = f'<a class="ver" href="#inmueble-{i["id"]}">Ver ficha →</a>'
     ref = i["id"] if i.get("origen") != "carpeta" else (i.get("ref") or i["id"])
     busca = " ".join([i["zona"], i["municipio"], i["titulo"], str(ref)]).lower()
-    return f'''<article class="ficha" data-id="{i["id"]}" data-op="{i["operacion"]}" data-orden="{orden}" data-precio="{i["precio"]}" data-m2="{i["m2"]}" data-hab="{i.get("hab") or 0}" data-cat="{e(i["cat"])}" data-busca="{e(busca)}">
+    return f'''<article class="ficha" data-id="{i["id"]}" data-op="{i["operacion"]}" data-orden="{orden}" data-precio="{i["precio"]}" data-m2="{i["m2"]}" data-hab="{i.get("hab") or 0}" data-banos="{i.get("banos") or 0}" data-cat="{e(i["cat"])}" data-busca="{e(busca)}">
   {foto}
   <div class="ficha-txt">
     <p class="ficha-zona">{e(i["zona"].upper())} · {e(i["municipio"].upper())} · REF. {e(str(ref))}</p>
     <h3><a href="#inmueble-{i["id"]}">{e(i["titulo"])}</a></h3>
     <p class="ficha-spec">{e(" · ".join(spec))}</p>
-    <div class="ficha-pie"><span class="ficha-precio">{precio}</span>{enlace}</div>
+    <div class="ficha-pie"><span class="ficha-precio">{precio}{pm2}</span>{enlace}</div>
   </div>
 </article>'''
 
