@@ -258,8 +258,7 @@ footer .wrap{padding-block:28px;display:flex;justify-content:space-between;gap:1
     </div>
   </section>
   <section class="portada" aria-label="Inmobiliaria JAIME III">
-    <img src="portada/portada-1.jpg" alt="Finca con piscina en la Serra de Tramuntana con el logo de Inmobiliaria JAIME III" class="on">
-    <img src="portada/portada-2.jpg" alt="Vista al mar de Mallorca con el logo de Inmobiliaria JAIME III">
+    <img src="portada/portada-2.jpg" alt="Vista al mar de Mallorca con el logo de Inmobiliaria JAIME III" class="on">
     <a class="pill portada-cta" href="#inmuebles">Ver inmuebles</a>
   </section>
   <section class="titulo">
@@ -532,7 +531,7 @@ document.querySelectorAll(".galeria").forEach(g=>{
   g.addEventListener("touchend",e=>{if(x0==null)return;const dx=e.changedTouches[0].clientX-x0,dy=e.changedTouches[0].clientY-y0;
     if(Math.abs(dx)>35&&Math.abs(dx)>Math.abs(dy)){manual=true;parar();ir(i+(dx<0?1:-1));g.dataset.swipe="1";setTimeout(()=>delete g.dataset.swipe,400)}x0=null});
 });
-(()=>{const f=[...document.querySelectorAll(".portada>img")];let i=0;
+(()=>{const f=[...document.querySelectorAll(".portada>img")];if(f.length<2)return;let i=0;
  setInterval(()=>{f[i].classList.remove("on");i=(i+1)%f.length;void f[i].offsetWidth;f[i].classList.add("on")},6000)})();
 
 const DATOS=JSON.parse(document.getElementById("datos-inmuebles").textContent);

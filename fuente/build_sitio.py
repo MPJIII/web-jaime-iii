@@ -31,7 +31,7 @@ negocio = {
     "legalName": "INMOBILIARIA JAIME III, S.C.P.",
     "url": DOMINIO + "/",
     "logo": DOMINIO + "/fuente/logo.png",
-    "image": DOMINIO + "/portada/portada-1.jpg",
+    "image": DOMINIO + "/portada/portada-2.jpg",
     "telephone": "+34 691 740 124",
     "email": "miguelp@jaimetercero.com",
     "address": {
@@ -59,7 +59,7 @@ head = f"""<!DOCTYPE html>
 <meta property="og:title" content="Inmobiliaria JAIME III · Pisos y casas en venta y alquiler en Palma y Mallorca">
 <meta property="og:description" content="{html.escape(descripcion)}">
 <meta property="og:url" content="{DOMINIO}/">
-<meta property="og:image" content="{DOMINIO}/portada/portada-1.jpg">
+<meta property="og:image" content="{DOMINIO}/portada/portada-2.jpg">
 <meta property="og:locale" content="es_ES">
 <meta name="twitter:card" content="summary_large_image">
 <script type="application/ld+json">{jsonld}</script>

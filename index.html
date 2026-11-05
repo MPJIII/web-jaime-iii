@@ -11,10 +11,10 @@
 <meta property="og:title" content="Inmobiliaria JAIME III · Pisos y casas en venta y alquiler en Palma y Mallorca">
 <meta property="og:description" content="Inmobiliaria JAIME III: pisos, áticos, casas y terrenos en venta y alquiler en Palma y toda Mallorca. Valoramos su propiedad gratis. Passatge Galerías Jaime III, 2, Palma.">
 <meta property="og:url" content="https://jaimetercero.com/">
-<meta property="og:image" content="https://jaimetercero.com/portada/portada-1.jpg">
+<meta property="og:image" content="https://jaimetercero.com/portada/portada-2.jpg">
 <meta property="og:locale" content="es_ES">
 <meta name="twitter:card" content="summary_large_image">
-<script type="application/ld+json">{"@context": "https://schema.org", "@type": "RealEstateAgent", "name": "Inmobiliaria JAIME III", "legalName": "INMOBILIARIA JAIME III, S.C.P.", "url": "https://jaimetercero.com/", "logo": "https://jaimetercero.com/fuente/logo.png", "image": "https://jaimetercero.com/portada/portada-1.jpg", "telephone": "+34 691 740 124", "email": "miguelp@jaimetercero.com", "address": {"@type": "PostalAddress", "streetAddress": "Passatge Galerías Jaime III, 2, 5º A", "postalCode": "07012", "addressLocality": "Palma", "addressRegion": "Illes Balears", "addressCountry": "ES"}, "areaServed": ["Palma", "Mallorca"]}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "RealEstateAgent", "name": "Inmobiliaria JAIME III", "legalName": "INMOBILIARIA JAIME III, S.C.P.", "url": "https://jaimetercero.com/", "logo": "https://jaimetercero.com/fuente/logo.png", "image": "https://jaimetercero.com/portada/portada-2.jpg", "telephone": "+34 691 740 124", "email": "miguelp@jaimetercero.com", "address": {"@type": "PostalAddress", "streetAddress": "Passatge Galerías Jaime III, 2, 5º A", "postalCode": "07012", "addressLocality": "Palma", "addressRegion": "Illes Balears", "addressCountry": "ES"}, "areaServed": ["Palma", "Mallorca"]}</script>
 <style>:root{padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}body{margin:0;font-size:14px}img{max-width:100%}[hidden]{display:none!important}</style>
 <title>Inmobiliaria JAIME III · Pisos y casas en venta y alquiler en Palma y Mallorca</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700&family=Montserrat:wght@400;500;600&display=swap">
@@ -278,8 +278,7 @@ footer .wrap{padding-block:28px;display:flex;justify-content:space-between;gap:1
     </div>
   </section>
   <section class="portada" aria-label="Inmobiliaria JAIME III">
-    <img src="portada/portada-1.jpg" alt="Finca con piscina en la Serra de Tramuntana con el logo de Inmobiliaria JAIME III" class="on">
-    <img src="portada/portada-2.jpg" alt="Vista al mar de Mallorca con el logo de Inmobiliaria JAIME III">
+    <img src="portada/portada-2.jpg" alt="Vista al mar de Mallorca con el logo de Inmobiliaria JAIME III" class="on">
     <a class="pill portada-cta" href="#inmuebles">Ver inmuebles</a>
   </section>
   <section class="titulo">
@@ -722,7 +721,7 @@ document.querySelectorAll(".galeria").forEach(g=>{
   g.addEventListener("touchend",e=>{if(x0==null)return;const dx=e.changedTouches[0].clientX-x0,dy=e.changedTouches[0].clientY-y0;
     if(Math.abs(dx)>35&&Math.abs(dx)>Math.abs(dy)){manual=true;parar();ir(i+(dx<0?1:-1));g.dataset.swipe="1";setTimeout(()=>delete g.dataset.swipe,400)}x0=null});
 });
-(()=>{const f=[...document.querySelectorAll(".portada>img")];let i=0;
+(()=>{const f=[...document.querySelectorAll(".portada>img")];if(f.length<2)return;let i=0;
  setInterval(()=>{f[i].classList.remove("on");i=(i+1)%f.length;void f[i].offsetWidth;f[i].classList.add("on")},6000)})();
 
 const DATOS=JSON.parse(document.getElementById("datos-inmuebles").textContent);
