@@ -17,9 +17,9 @@
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "RealEstateAgent", "name": "Inmobiliaria JAIME III", "legalName": "INMOBILIARIA JAIME III, S.C.P.", "url": "https://jaimetercero.com/", "logo": "https://jaimetercero.com/fuente/logo.png", "image": "https://jaimetercero.com/portada/portada-2.jpg", "telephone": "+34 691 740 124", "email": "miguelp@jaimetercero.com", "address": {"@type": "PostalAddress", "streetAddress": "Passatge Galerías Jaime III, 2, 5º A", "postalCode": "07012", "addressLocality": "Palma", "addressRegion": "Illes Balears", "addressCountry": "ES"}, "areaServed": ["Palma", "Mallorca"]}</script>
 <style>:root{padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}body{margin:0;font-size:14px}img{max-width:100%}[hidden]{display:none!important}</style>
 <title>Inmobiliaria JAIME III · Pisos y casas en venta y alquiler en Palma y Mallorca</title>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700&family=Montserrat:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500&family=Jost:wght@400;500;600&display=swap">
 <style>
-/* Layout: portal de inmuebles — cabecera negra, buscador con campos en píldora, fichas horizontales blancas en dos columnas */
+/* Layout: editorial blanco y negro — cabecera blanca con menú, título centrado con filete, buscador en banda gris, fichas verticales en 3 columnas, contacto en banda negra */
 :root{
   --fondo:#0d0d0d;        /* negro de marca */
   --fondo-2:#1a1a1a;
@@ -158,12 +158,12 @@ select{background-image:linear-gradient(45deg,transparent 50%,#333 50%),linear-g
 .det-contacto .pill{margin-top:6px}
 body.viendo-detalle #contacto{border-top:1px solid var(--linea)}
 .det-idealista{justify-self:center;font-size:.8rem}
-body.viendo-detalle .portada,body.viendo-detalle .titulo,body.viendo-detalle .buscador,body.viendo-detalle .resultados,body.viendo-detalle #servicios{display:none}
+body.viendo-detalle .portada,body.viendo-detalle .titulo,body.viendo-detalle .buscador,body.viendo-detalle .resultados,body.viendo-detalle #servicios,body.viendo-detalle #vender{display:none}
 @media (max-width:900px){.det-cuerpo{grid-template-columns:1fr}.det-contacto{position:static}}
 @media (max-width:640px){.det-flecha{width:40px;height:40px}.det-miniaturas button{width:72px}}
 /* Textos legales */
 .pendiente{background:#ffe066;color:#0d0d0d;padding:0 4px;border-radius:3px;font-weight:600}
-body.viendo-legal .portada,body.viendo-legal .titulo,body.viendo-legal .buscador,body.viendo-legal .resultados,body.viendo-legal #servicios,body.viendo-legal #contacto{display:none}
+body.viendo-legal .portada,body.viendo-legal .titulo,body.viendo-legal .buscador,body.viendo-legal .resultados,body.viendo-legal #servicios,body.viendo-legal #contacto,body.viendo-legal #vender{display:none}
 .legal-wrap{padding-block:40px 80px;max-width:820px}
 .legal h1{font-size:clamp(2.2rem,5vw,3.2rem);margin-top:8px}
 .legal h2{font-size:1.5rem;margin-top:34px}
@@ -221,6 +221,158 @@ footer .wrap{padding-block:28px;display:flex;justify-content:space-between;gap:1
   .servicios,.contacto-grid,.fila{grid-template-columns:1fr}
   .cta-cab{display:none} .logo{height:48px}
 }
+
+/* ===== Identidad JAIME III: blanco y negro clásico, serif de la corona, fichas verticales, ángulos rectos ===== */
+:root{
+  --fondo:#ffffff; --fondo-2:#f4f4f3; --linea:#e2e2e0; --blanco:#111111; --texto:#151515; --suave:#6b6b6b;
+  --ficha:#ffffff; --ficha-txt:#151515; --ficha-gris:#6b6b6b; --negro:#111111;
+  --display:"Cormorant Garamond","Cormorant",Garamond,"Times New Roman",serif;
+  --body:"Jost",system-ui,-apple-system,"Segoe UI",sans-serif;
+  color-scheme:light;
+}
+body{font-size:16px}
+h1,h2,h3{font-weight:600;text-transform:none;letter-spacing:-.005em;line-height:1.08}
+.eti{color:var(--suave);letter-spacing:.24em;font-size:.72rem}
+.eti::before{content:"";display:inline-block;width:22px;height:1px;background:currentColor;vertical-align:middle;margin-right:10px}
+/* Botones rectos */
+.pill{border-radius:0;padding:14px 26px;font-size:.76rem;letter-spacing:.2em;background:var(--negro);border-color:var(--negro);color:#fff}
+.pill:hover{background:#333;border-color:#333}
+.pill.borde{background:transparent;color:var(--negro);border-color:var(--negro)}
+.pill.borde:hover{background:var(--negro);color:#fff}
+/* Cabecera blanca con menú visible */
+header{background:rgba(255,255,255,.96);backdrop-filter:saturate(1.2) blur(8px);border-bottom:1px solid var(--linea)}
+body::before{background:#fff}
+.logo{filter:none;height:62px}
+.nav-cab{display:flex;gap:30px;align-items:center}
+.nav-cab a{text-decoration:none;font-size:.78rem;letter-spacing:.2em;text-transform:uppercase;font-weight:500;color:var(--texto);padding-block:6px;border-bottom:1px solid transparent}
+.nav-cab a:hover{border-bottom-color:var(--negro)}
+.menu-btn{border-radius:0;background:#fff;color:var(--negro);border-color:var(--linea);display:none}
+nav.menu{background:#fff}
+nav.menu a{font-family:var(--display);font-size:1.6rem;text-transform:none}
+@media (max-width:980px){.nav-cab{display:none}.menu-btn{display:grid}}
+/* Portada: botón sobre la foto */
+.portada-cta{background:#fff;color:var(--negro);border-color:#fff}
+.portada-cta:hover{background:var(--negro);color:#fff;border-color:var(--negro)}
+/* Título centrado, estilo editorial */
+.titulo{border-bottom:0}
+.titulo .wrap{padding-block:64px 24px;justify-items:center;text-align:center}
+.titulo h1{font-size:clamp(2.4rem,5.4vw,4rem);font-weight:500;max-width:18ch}
+.titulo h1::after{content:"";display:block;width:56px;height:1px;background:var(--negro);margin:22px auto 0}
+/* Pestañas Comprar / Alquilar subrayadas */
+.operaciones{gap:28px}
+.op{border:0;border-bottom:1px solid transparent;border-radius:0;padding:8px 2px;background:transparent;color:var(--suave);letter-spacing:.22em}
+.op.activo{background:transparent;color:var(--negro);border-bottom-color:var(--negro)}
+/* Buscador en banda gris clara, campos rectos */
+.buscador{background:var(--fondo-2);border-block:1px solid var(--linea)}
+.buscador .wrap{border-bottom:0;padding-block:30px}
+.campo label{padding-left:0;color:var(--texto);letter-spacing:.2em}
+input,select,textarea{border-radius:0!important;background-color:#fff;color:var(--texto);border:1px solid #cfcfcc}
+.barra .orden{flex-wrap:wrap}.barra select{max-width:100%}
+input:focus,select:focus,textarea:focus{outline:none;border-color:var(--negro)}
+.rango{border-radius:0;background:#fff;border:1px solid #cfcfcc}
+.rango input{border:0!important}
+select{background-image:linear-gradient(45deg,transparent 50%,#111 50%),linear-gradient(135deg,#111 50%,transparent 50%)}
+/* Fichas verticales en 3 columnas */
+.rejilla{grid-template-columns:repeat(3,minmax(0,1fr));gap:40px 28px}
+.ficha{display:flex;flex-direction:column;border-radius:0;background:transparent;min-height:0;overflow:visible}
+.ficha:hover{transform:none;box-shadow:none}
+.ficha-foto{min-height:0;aspect-ratio:4/3;max-width:100%;overflow:hidden;background:var(--fondo-2)}
+.ficha-foto>img{transition:opacity .6s ease,transform .8s ease}
+.ficha:hover .ficha-foto>img.on{transform:scale(1.04)}
+.sinfoto{background:var(--fondo-2)}
+.sinfoto img{filter:none;opacity:.55;width:38%}
+.badge{border-radius:0;background:#fff;color:var(--negro);letter-spacing:.18em}
+.contador-fotos{border-radius:0;background:rgba(17,17,17,.78)}
+.gal-flecha{border-radius:0;width:34px;height:34px;box-shadow:none}
+.ficha-txt{padding:18px 0 0;gap:6px;border-bottom:1px solid var(--linea);padding-bottom:18px}
+.ficha-zona{letter-spacing:.2em;font-size:.68rem}
+.ficha h3{font-size:1.55rem;font-weight:600}
+.ficha-pie{padding-top:8px}
+.ficha-precio{font-weight:600;font-size:1.7rem}
+.ver{letter-spacing:.14em;text-transform:uppercase;font-size:.7rem}
+.barra{border-bottom:1px solid var(--linea);padding-bottom:14px;margin-bottom:30px}
+.vacio{border-radius:0}
+@media (max-width:980px){.rejilla{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media (max-width:640px){.rejilla{grid-template-columns:1fr}.ficha{grid-template-columns:none}.ficha-foto{aspect-ratio:4/3}}
+/* Servicios: columnas con filete superior */
+.bloque{border-top:1px solid var(--linea)}
+.servicios{gap:0 32px}
+.servicio{background:transparent;border-radius:0;padding:24px 0 0;border-top:2px solid var(--negro)}
+.servicio h3{font-size:1.7rem}
+/* Contacto en banda negra */
+#contacto{background:var(--negro);color:#f2f2f2;border-top:0}
+#contacto .eti,#contacto .dato small,#contacto p,#contacto .nota,#contacto .info-rgpd{color:#b5b5b5}
+#contacto .dato{border-color:#2e2e2e}
+#contacto .datos{border-color:#2e2e2e}
+#contacto form label{color:#b5b5b5}
+#contacto form .check{color:#e5e5e5}
+#contacto input,#contacto select,#contacto textarea{background-color:#fff;border-color:#fff}
+#contacto .pill{background:#fff;color:var(--negro);border-color:#fff}
+#contacto .pill:hover{background:#ddd}
+#contacto .copiar{color:#f2f2f2;border-color:#444}
+#contacto .resultado{background:#1d1d1d}
+.copiar{border-radius:0}
+footer{background:#0b0b0b;color:#9a9a9a;border-top:1px solid #222}
+footer .wrap{color:#9a9a9a}
+.pie-legal a{color:#9a9a9a}.pie-legal a:hover{color:#fff}
+/* Ficha detallada */
+.volver{border-radius:0;box-shadow:none}
+.det-principal{border-radius:0;background:var(--fondo-2)}
+.det-flecha{border-radius:0}
+.det-miniaturas button{border-radius:0;background:var(--fondo-2)}
+.det-miniaturas button.on{border-color:var(--negro)}
+.det-info h1{font-weight:500}
+.det-precio{font-weight:600}
+.det-desc,.det-ubic{color:#333}
+.det-grupo h3{font-family:var(--body);font-size:.75rem;letter-spacing:.2em;text-transform:uppercase;color:var(--suave)}
+.det-grupo li::before{border-radius:0;width:6px;height:6px;background:var(--negro)}
+.det-contacto{border-radius:0;background:var(--fondo-2);border-top:2px solid var(--negro)}
+body.viendo-detalle #contacto{border-top:0}
+/* Textos legales */
+.legal p,.legal li{color:#333}
+.legal-resumen{border-radius:0;background:var(--fondo-2)}
+
+/* Vender con nosotros */
+section[id],#valoracion{scroll-margin-top:100px}
+.vender .wrap{display:grid;gap:56px}
+.vender-intro{display:grid;grid-template-columns:1fr 1.1fr;gap:48px;align-items:end}
+.vender-intro h2{font-size:clamp(2.4rem,5vw,3.8rem);font-weight:500;margin-top:12px;max-width:12ch}
+.vender-texto{display:grid;gap:14px;color:#333;font-size:1.05rem;max-width:60ch}
+.vender-cifras{display:grid;grid-template-columns:repeat(3,1fr);border-block:1px solid var(--negro)}
+.vender-cifras div{padding:26px 24px;display:grid;gap:6px;align-content:start}
+.vender-cifras div+div{border-left:1px solid var(--linea)}
+.vender-cifras b{font-family:var(--display);font-size:clamp(2rem,4vw,3rem);font-weight:600;line-height:1}
+.vender-cifras span{color:var(--suave);font-size:.9rem}
+.vender-tipos ul{list-style:none;margin:18px 0 0;padding:0;display:grid;grid-template-columns:repeat(4,1fr);gap:0 32px}
+.vender-tipos li{border-top:2px solid var(--negro);padding-top:18px;display:grid;gap:6px}
+.vender-tipos h3{font-size:1.7rem}
+.vender-tipos li p{color:var(--suave);font-size:.95rem}
+.vender-pasos ol{list-style:none;counter-reset:paso;margin:18px 0 0;padding:0;display:grid;grid-template-columns:repeat(5,1fr);gap:0 24px}
+.vender-pasos li{counter-increment:paso;display:grid;gap:8px;align-content:start;padding-top:16px;border-top:1px solid var(--linea)}
+.vender-pasos li::before{content:counter(paso,decimal-leading-zero);font-family:var(--display);font-size:2.4rem;line-height:1;color:var(--negro)}
+.vender-pasos b{font-size:.8rem;letter-spacing:.18em;text-transform:uppercase;font-weight:600}
+.vender-pasos li p{color:var(--suave);font-size:.92rem}
+.valoracion{background:var(--fondo-2);border-top:2px solid var(--negro);padding:40px clamp(20px,4vw,48px);display:grid;grid-template-columns:minmax(0,.8fr) minmax(0,1.6fr);gap:40px;align-items:start}
+.valoracion-cab h2{font-size:clamp(2rem,3.6vw,2.8rem);font-weight:500;margin-top:10px}
+.valoracion-cab p:last-child{color:#444;margin-top:12px}
+#form-valoracion{display:grid;gap:18px;min-width:0}
+.v-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px 16px}
+.v-ancho{grid-column:1/-1}
+#form-valoracion label{display:grid;gap:6px;font-size:.72rem;letter-spacing:.16em;text-transform:uppercase;color:var(--texto);font-weight:500;min-width:0}
+#form-valoracion input,#form-valoracion select,#form-valoracion textarea{font:400 .95rem var(--body);letter-spacing:0;text-transform:none;padding:12px 14px;width:100%}
+#form-valoracion textarea{min-height:96px;resize:vertical}
+.v-extras{border:0;margin:0;padding:0;display:flex;flex-wrap:wrap;gap:10px 18px}
+.v-extras legend{font-size:.72rem;letter-spacing:.16em;text-transform:uppercase;font-weight:500;margin-bottom:10px;padding:0}
+#form-valoracion .v-extras label{display:flex;align-items:center;gap:8px;text-transform:none;letter-spacing:0;font-size:.95rem;font-weight:400}
+#form-valoracion input[type=checkbox]{width:18px;height:18px;padding:0;appearance:auto;flex:0 0 auto}
+#form-valoracion .check{display:flex;text-transform:none;letter-spacing:0;font-size:.9rem;font-weight:400}
+.v-contacto{padding-top:18px;border-top:1px solid #d9d9d6}
+.v-enviar{display:flex;gap:12px;flex-wrap:wrap}
+.v-error{color:#b00020;font-size:.92rem}
+.v-hecho{background:#fff;border:1px solid var(--linea);padding:18px;display:grid;gap:10px}
+.v-hecho pre{white-space:pre-wrap;font:400 .88rem/1.5 var(--body);margin:0;color:#333;max-height:260px;overflow:auto}
+@media (max-width:980px){.vender-intro,.valoracion{grid-template-columns:1fr}.vender-tipos ul{grid-template-columns:repeat(2,1fr);gap:28px 24px}.vender-pasos ol{grid-template-columns:repeat(2,1fr);gap:28px 24px}}
+@media (max-width:640px){.vender-cifras{grid-template-columns:1fr}.vender-cifras div+div{border-left:0;border-top:1px solid var(--linea)}.vender-tipos ul,.vender-pasos ol,.v-grid{grid-template-columns:1fr}}
 </style>
 </head>
 <body>
@@ -229,13 +381,14 @@ footer .wrap{padding-block:28px;display:flex;justify-content:space-between;gap:1
 <header>
   <div class="wrap">
     <a href="#inicio" aria-label="Inicio"><img class="logo" src="data:image/png;base64,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" alt="Inmobiliaria JAIME III"></a>
+    <nav class="nav-cab" aria-label="Secciones"><a href="#inmuebles" data-ir-op="venta">Comprar</a><a href="#inmuebles" data-ir-op="alquiler">Alquilar</a><a href="#vender">Vender</a><a href="#servicios">Servicios</a><a href="#contacto">Contacto</a></nav>
     <div class="cab-der">
-      <a class="pill cta-cab" href="#contacto">Valoramos tu propiedad gratis</a>
+      <a class="pill cta-cab" href="#valoracion">Valoramos tu propiedad</a>
       <button class="menu-btn" type="button" id="menu-btn" aria-expanded="false" aria-controls="menu" aria-label="Menú"><span></span></button>
     </div>
   </div>
   <nav class="menu" id="menu" hidden>
-    <div class="wrap"><a href="#inmuebles" data-ir-op="venta">Comprar</a><a href="#inmuebles" data-ir-op="alquiler">Alquilar</a><a href="#servicios">Servicios</a><a href="#contacto">Vender</a><a href="#contacto">Contacto</a></div>
+    <div class="wrap"><a href="#inmuebles" data-ir-op="venta">Comprar</a><a href="#inmuebles" data-ir-op="alquiler">Alquilar</a><a href="#vender">Vender</a><a href="#servicios">Servicios</a><a href="#contacto">Contacto</a></div>
   </nav>
 </header>
 
@@ -503,12 +656,122 @@ footer .wrap{padding-block:28px;display:flex;justify-content:space-between;gap:1
     </div>
   </section>
 
+  <section class="bloque vender" id="vender">
+    <div class="wrap">
+      <div class="vender-intro">
+        <div>
+          <p class="eti">Vender con nosotros</p>
+          <h2>Más de 50 años vendiendo en Mallorca</h2>
+        </div>
+        <div class="vender-texto">
+          <p>Inmobiliaria JAIME III lleva más de 50 años dedicada a la promoción y venta de inmuebles en Mallorca. En este tiempo hemos vendido viviendas de todo tipo, edificios completos y terrenos, en Palma y en toda la isla.</p>
+          <p>Esa experiencia es la que ponemos al servicio de cada propietario: conocemos el mercado de cada zona, sabemos qué precio es realista y cómo presentar su inmueble para venderlo bien y sin perder tiempo.</p>
+        </div>
+      </div>
+
+      <div class="vender-cifras">
+        <div><b>+50 años</b><span>en la promoción y venta de inmuebles</span></div>
+        <div><b>Todo tipo</b><span>de viviendas, edificios y terrenos</span></div>
+        <div><b>Mallorca</b><span>Palma y el resto de la isla</span></div>
+      </div>
+
+      <div class="vender-tipos">
+        <p class="eti">Qué vendemos</p>
+        <ul>
+          <li><h3>Viviendas</h3><p>Pisos, áticos, casas de pueblo, chalets y villas.</p></li>
+          <li><h3>Edificios</h3><p>Edificios completos, para inversores o promotores.</p></li>
+          <li><h3>Terrenos</h3><p>Solares urbanos, parcelas y fincas rústicas.</p></li>
+          <li><h3>Promociones</h3><p>Comercialización de promociones de obra nueva.</p></li>
+        </ul>
+      </div>
+
+      <div class="vender-pasos">
+        <p class="eti">Cómo trabajamos</p>
+        <ol>
+          <li><b>Valoración</b><p>Estudiamos su inmueble y la zona, y le proponemos un precio de venta realista.</p></li>
+          <li><b>Preparación</b><p>Revisamos la documentación y preparamos fotos y descripción del inmueble.</p></li>
+          <li><b>Difusión</b><p>Lo publicamos en nuestra web y en los principales portales, y lo ofrecemos a nuestra cartera de clientes.</p></li>
+          <li><b>Visitas y negociación</b><p>Filtramos a los interesados, hacemos las visitas y negociamos en su nombre.</p></li>
+          <li><b>Hasta la notaría</b><p>Redactamos el contrato de arras y le acompañamos hasta la firma de la escritura.</p></li>
+        </ol>
+      </div>
+
+      <div class="valoracion" id="valoracion">
+        <div class="valoracion-cab">
+          <p class="eti">Valoración sin compromiso</p>
+          <h2>Cuéntenos cómo es su propiedad</h2>
+          <p>Rellene los datos que conozca y déjenos su teléfono. Le llamaremos para darle una valoración.</p>
+        </div>
+        <form id="form-valoracion" novalidate>
+          <div class="v-grid">
+            <label for="v-tipo">Tipo de inmueble
+              <select id="v-tipo"><option>Piso</option><option>Ático</option><option>Casa o chalet</option><option>Casa de pueblo</option><option>Finca rústica</option><option>Edificio</option><option>Terreno o solar</option><option>Local u oficina</option><option>Otro</option></select></label>
+            <label for="v-operacion">Quiere
+              <select id="v-operacion"><option>Vender</option><option>Alquilar</option><option>Aún no lo sé</option></select></label>
+            <label class="v-ancho" for="v-direccion">Dónde se encuentra
+              <input id="v-direccion" placeholder="Calle o zona, y municipio (por ejemplo: Santa Catalina, Palma)"></label>
+            <label for="v-m2">Metros construidos
+              <input id="v-m2" inputmode="numeric" placeholder="m²"></label>
+            <label for="v-parcela">Metros de parcela o terreno
+              <input id="v-parcela" inputmode="numeric" placeholder="m² (si tiene)"></label>
+            <label for="v-hab">Habitaciones
+              <input id="v-hab" inputmode="numeric" placeholder="Nº"></label>
+            <label for="v-banos">Baños
+              <input id="v-banos" inputmode="numeric" placeholder="Nº"></label>
+            <label for="v-planta">Planta
+              <input id="v-planta" placeholder="Bajo, 3ª, ático…"></label>
+            <label for="v-estado">Estado
+              <select id="v-estado"><option value="">Seleccione</option><option>Para entrar a vivir</option><option>Buen estado</option><option>Necesita reforma</option><option>Obra nueva</option></select></label>
+            <label for="v-precio">Precio que espera (opcional)
+              <input id="v-precio" inputmode="numeric" placeholder="€"></label>
+            <label for="v-ano">Año de construcción
+              <input id="v-ano" inputmode="numeric" placeholder="Aprox."></label>
+          </div>
+          <fieldset class="v-extras">
+            <legend>Tiene</legend>
+            <label><input type="checkbox" value="Terraza" id="vx-terraza"> Terraza</label>
+            <label><input type="checkbox" value="Garaje" id="vx-garaje"> Garaje</label>
+            <label><input type="checkbox" value="Ascensor" id="vx-ascensor"> Ascensor</label>
+            <label><input type="checkbox" value="Piscina" id="vx-piscina"> Piscina</label>
+            <label><input type="checkbox" value="Jardín" id="vx-jardin"> Jardín</label>
+            <label><input type="checkbox" value="Trastero" id="vx-trastero"> Trastero</label>
+            <label><input type="checkbox" value="Vistas al mar" id="vx-vistas"> Vistas al mar</label>
+            <label><input type="checkbox" value="Licencia vacacional" id="vx-licencia"> Licencia vacacional</label>
+            <label><input type="checkbox" value="Está alquilado" id="vx-alquilado"> Está alquilado</label>
+          </fieldset>
+          <label class="v-ancho" for="v-coment">Algo más que debamos saber
+            <textarea id="v-coment" placeholder="Reformas, orientación, cargas, plazo en el que quiere vender…"></textarea></label>
+          <div class="v-grid v-contacto">
+            <label for="v-nombre">Nombre
+              <input id="v-nombre" autocomplete="name" placeholder="Su nombre"></label>
+            <label for="v-tel">Teléfono *
+              <input id="v-tel" type="tel" autocomplete="tel" placeholder="600 000 000" required></label>
+            <label class="v-ancho" for="v-email">Email (opcional)
+              <input id="v-email" type="email" autocomplete="email" placeholder="nombre@correo.com"></label>
+          </div>
+          <label class="check" for="v-acepto"><input type="checkbox" id="v-acepto" required> <span>He leído y acepto la <a href="#privacidad">política de privacidad</a>.</span></label>
+          <p class="info-rgpd"><b>Protección de datos.</b> Responsable: INMOBILIARIA JAIME III, S.C.P. Finalidad: valorar su inmueble y contactarle. Legitimación: su consentimiento. No se ceden datos a terceros salvo obligación legal. Puede ejercer sus derechos escribiendo a miguelp@jaimetercero.com. Más información en la <a href="#privacidad">política de privacidad</a>.</p>
+          <p class="v-error" id="v-error" role="alert" hidden></p>
+          <div class="v-enviar">
+            <button class="pill" type="submit" id="v-wa">Enviar por WhatsApp</button>
+            <button class="pill borde" type="button" id="v-mail">Enviar por email</button>
+          </div>
+          <div class="v-hecho" id="v-hecho" hidden>
+            <p><b>Su solicitud está lista.</b> Si no se ha abierto WhatsApp o su correo, copie este texto y envíelo al 691 740 124 o a miguelp@jaimetercero.com.</p>
+            <pre id="v-texto"></pre>
+            <button class="copiar" type="button" id="v-copiar">Copiar texto</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+
   <section class="bloque" id="contacto">
     <div class="wrap contacto-grid">
       <div>
         <p class="eti">Contacto</p>
-        <h2>Valoramos tu propiedad gratis</h2>
-        <p style="margin-top:14px;color:var(--suave);max-width:30em">Llámenos o escríbanos y le responderemos el mismo día laborable.</p>
+        <h2>Hablemos</h2>
+        <p style="margin-top:14px;color:var(--suave);max-width:30em">Llámenos, escríbanos o venga a vernos a la oficina. Le responderemos el mismo día laborable.</p>
         <div class="datos">
           <div class="dato"><div><small>Teléfono</small><span class="valor" id="tel">691 740 124</span></div><button class="copiar" type="button" data-copy="tel" id="copiar-tel">Copiar</button></div>
           <div class="dato"><div><small>Email</small><span class="valor" id="mail">miguelp@jaimetercero.com</span></div><button class="copiar" type="button" data-copy="mail" id="copiar-mail">Copiar</button></div>
@@ -779,6 +1042,30 @@ $("det-foto").addEventListener("touchend",e=>{if(tx==null)return;const dx=e.chan
 $("det-pedir").addEventListener("click",()=>{const r=$("det-pedir").dataset.ref;cerrarDetalle();
   $("f-motivo").value="Un inmueble concreto (indique la referencia)";$("f-msg").value="Me interesa: "+r;});
 document.querySelectorAll(".ficha").forEach(f=>f.addEventListener("click",e=>{if(e.target.closest("a.ver")||e.target.closest(".gal-flecha"))return;if(f.querySelector(".galeria")?.dataset.swipe){e.preventDefault();return}if(!e.target.closest("h3 a")){location.hash="inmueble-"+f.dataset.id}}));
+
+(()=>{const f=document.getElementById("form-valoracion");if(!f)return;const g=id=>document.getElementById(id);
+ const v=id=>g(id).value.trim();
+ function texto(){const ex=[...f.querySelectorAll(".v-extras input:checked")].map(x=>x.value);
+  const L=["Solicitud de valoración (web Inmobiliaria JAIME III)",
+   "Quiere: "+v("v-operacion"),"Tipo: "+v("v-tipo"),"Ubicación: "+(v("v-direccion")||"-")];
+  const add=(k,id,suf="")=>{const x=v(id);if(x)L.push(k+": "+x+suf)};
+  add("Metros construidos","v-m2"," m²");add("Parcela","v-parcela"," m²");add("Habitaciones","v-hab");add("Baños","v-banos");
+  add("Planta","v-planta");add("Estado","v-estado");add("Año de construcción","v-ano");add("Precio que espera","v-precio"," €");
+  if(ex.length)L.push("Tiene: "+ex.join(", "));add("Comentarios","v-coment");
+  L.push("","Nombre: "+(v("v-nombre")||"-"),"Teléfono: "+v("v-tel"));add("Email","v-email");
+  return L.join("\n")}
+ function validar(){const e=g("v-error");let m="";
+  if(v("v-tel").replace(/\D/g,"").length<9)m="Indique un teléfono de contacto para poder llamarle.";
+  else if(!v("v-direccion"))m="Indique dónde se encuentra la propiedad.";
+  else if(!g("v-acepto").checked)m="Para enviar la solicitud debe aceptar la política de privacidad.";
+  e.textContent=m;e.hidden=!m;return !m}
+ function listo(t){g("v-texto").textContent=t;g("v-hecho").hidden=false}
+ f.addEventListener("submit",e=>{e.preventDefault();if(!validar())return;const t=texto();listo(t);
+  const a=document.createElement("a");a.href="https://wa.me/34691740124?text="+encodeURIComponent(t);a.target="_blank";a.rel="noopener";document.body.appendChild(a);a.click();a.remove()});
+ g("v-mail").addEventListener("click",()=>{if(!validar())return;const t=texto();listo(t);
+  location.href="mailto:miguelp@jaimetercero.com?subject="+encodeURIComponent("Solicitud de valoración - "+v("v-tipo")+" en "+v("v-direccion"))+"&body="+encodeURIComponent(t)});
+ g("v-copiar").addEventListener("click",()=>{const b=g("v-copiar");try{navigator.clipboard.writeText(g("v-texto").textContent).then(()=>{b.textContent="Copiado"},()=>{b.textContent="Selecciónelo y copie"})}catch(e){b.textContent="Selecciónelo y copie"}});
+})();
 </script>
 
 </body>
