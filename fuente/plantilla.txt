@@ -58,6 +58,7 @@ nav.menu a{text-decoration:none;font-family:var(--display);font-size:1.3rem;text
 .actualizado{font-size:.78rem;color:var(--suave)}
 .buscador .wrap{padding-block:28px;display:grid;gap:16px;border-bottom:1px solid var(--linea)}
 .campos{display:grid;grid-template-columns:repeat(3,1fr);gap:14px 16px}
+@media (min-width:641px){.campo.doble{grid-column:span 2}}
 .campo{display:grid;gap:6px;min-width:0}
 .campo.ancho{grid-column:1/-1}
 .campo label{font-size:.72rem;letter-spacing:.18em;text-transform:uppercase;color:var(--suave);padding-left:14px}
@@ -450,7 +451,7 @@ a.servicio:hover h3{text-decoration:underline;text-underline-offset:4px;text-dec
   <section class="buscador" aria-label="Buscador">
     <form class="wrap" id="buscador">
       <div class="campos">
-        <div class="campo ancho"><label for="b-zona">Zona</label><input id="b-zona" type="search" placeholder="Zona, pueblo o referencia"></div>
+        <div class="campo"><label for="b-muni">Municipio</label><select id="b-muni"><option value="">Toda Mallorca</option><option value="palma" data-n="Palma">Palma</option><option value="alcudia" data-n="Alcúdia">Alcúdia</option><option value="andratx" data-n="Andratx">Andratx</option><option value="arta" data-n="Artà">Artà</option><option value="bunyola" data-n="Bunyola">Bunyola</option><option value="calvia" data-n="Calvià">Calvià</option><option value="campos" data-n="Campos">Campos</option><option value="capdepera" data-n="Capdepera">Capdepera</option><option value="deia" data-n="Deià">Deià</option><option value="felanitx" data-n="Felanitx">Felanitx</option><option value="inca" data-n="Inca">Inca</option><option value="llucmajor" data-n="Llucmajor">Llucmajor</option><option value="manacor" data-n="Manacor">Manacor</option><option value="marratxi" data-n="Marratxí">Marratxí</option><option value="pollenca" data-n="Pollença">Pollença</option><option value="santa margalida" data-n="Santa Margalida">Santa Margalida</option><option value="santanyi" data-n="Santanyí">Santanyí</option><option value="sencelles" data-n="Sencelles">Sencelles</option><option value="soller" data-n="Sóller">Sóller</option><option value="son servera" data-n="Son Servera">Son Servera</option><option value="valldemossa" data-n="Valldemossa">Valldemossa</option></select></div><div class="campo doble"><label for="b-zona">Barrio, calle o referencia</label><input id="b-zona" type="search" placeholder="Por ejemplo: Santa Catalina, Paseo Mallorca o una referencia"></div>
         <div class="campo"><label for="b-pmin">Precio</label><div class="rango"><input id="b-pmin" inputmode="numeric" placeholder="Desde"><i>—</i><input id="b-pmax" inputmode="numeric" placeholder="Hasta" aria-label="Precio hasta"></div></div>
         <div class="campo"><label for="b-tipo">Tipo</label><select id="b-tipo"><option value="">Cualquiera</option><option value="Piso">Piso o apartamento</option><option value="Ático">Ático o dúplex</option><option value="Casa">Casa, chalet o villa</option><option value="Terreno">Terreno</option></select></div>
         <div class="campo"><label for="b-smin">Superficie m²</label><div class="rango"><input id="b-smin" inputmode="numeric" placeholder="Desde"><i>—</i><input id="b-smax" inputmode="numeric" placeholder="Hasta" aria-label="Superficie hasta"></div></div>
@@ -782,8 +783,11 @@ const $=id=>document.getElementById(id);
 const rej=$("rejilla"),fichas=[...rej.children];
 const num=v=>{const n=parseInt(String(v).replace(/\D/g,""),10);return isNaN(n)?null:n};
 let op="venta";
-function filtrar(){
-  const z=$("b-zona").value.trim().toLowerCase(),pmin=num($("b-pmin").value),pmax=num($("b-pmax").value),
+const normT=s=>s.normalize("NFD").replace(/[\u0300-\u036f]/g,"").toLowerCase().trim();
+const muniDe=f=>{const p=((f.querySelector(".ficha-zona")||{}).textContent||"").split("·");return normT(p.length>1?p[p.length-2]:"")};
+function contarMunis(){const c={};fichas.forEach(f=>{if(f.dataset.op===op){const k=muniDe(f);c[k]=(c[k]||0)+1}});[...$("b-muni").options].forEach(o=>{if(o.value)o.textContent=o.dataset.n+(c[o.value]?" ("+c[o.value]+")":"")})}
+function filtrar(){contarMunis();
+  const mu=$("b-muni").value,z=$("b-zona").value.trim().toLowerCase(),pmin=num($("b-pmin").value),pmax=num($("b-pmax").value),
   t=$("b-tipo").value,smin=num($("b-smin").value),smax=num($("b-smax").value),h=+$("b-hab").value,bn=+$("b-banos").value,o=$("orden").value;
   let lista=[...fichas];
   if(o==="asc")lista.sort((a,b)=>a.dataset.precio-b.dataset.precio);
@@ -792,7 +796,7 @@ function filtrar(){
   else lista.sort((a,b)=>a.dataset.orden-b.dataset.orden);
   let n=0;
   lista.forEach(f=>{const d=f.dataset,p=+d.precio,m=+d.m2;
-    const ok=d.op===op&&(!z||d.busca.includes(z))&&(pmin==null||p>=pmin)&&(pmax==null||p<=pmax)&&(!t||d.cat===t)&&(smin==null||m>=smin)&&(smax==null||m<=smax)&&(+d.hab>=h)&&(+d.banos>=bn);
+    const ok=d.op===op&&(!mu||muniDe(f)===mu)&&(!z||d.busca.includes(z))&&(pmin==null||p>=pmin)&&(pmax==null||p<=pmax)&&(!t||d.cat===t)&&(smin==null||m>=smin)&&(smax==null||m<=smax)&&(+d.hab>=h)&&(+d.banos>=bn);
     f.hidden=!ok;if(ok)n++;rej.appendChild(f)});
   $("contador").textContent=n+(n===1?" inmueble encontrado":" inmuebles encontrados");
   $("vacio").hidden=n>0;
@@ -804,7 +808,7 @@ document.querySelectorAll("[data-ir-op]").forEach(a=>a.addEventListener("click",
 filtrar();
 $("buscador").addEventListener("submit",e=>{e.preventDefault();filtrar();$("inmuebles").scrollIntoView({behavior:"smooth"})});
 $("buscador").addEventListener("reset",()=>setTimeout(filtrar,0));
-["b-tipo","b-hab","b-banos","orden"].forEach(id=>$(id).addEventListener("change",filtrar));
+["b-muni","b-tipo","b-hab","b-banos","orden"].forEach(id=>$(id).addEventListener("change",filtrar));
 $("b-zona").addEventListener("input",filtrar);
 $("menu-btn").addEventListener("click",()=>{const m=$("menu");m.hidden=!m.hidden;$("menu-btn").setAttribute("aria-expanded",String(!m.hidden))});
 document.querySelectorAll("#menu a").forEach(a=>a.addEventListener("click",()=>{$("menu").hidden=true}));

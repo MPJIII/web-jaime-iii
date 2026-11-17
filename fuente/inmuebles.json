@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-05",
+ "actualizado": "2026-11-14",
  "inmuebles": [
   {
    "id": "111206797",
@@ -48,14 +48,14 @@
    "hab": 6,
    "banos": 3,
    "extras": "parking",
-   "badge": "Destacado",
+   "badge": "",
    "grupo": "Mallorca",
-   "fotos": 60,
-   "carpeta": null,
+   "fotos": 53,
+   "carpeta": "Casa de pueblo Santanyi",
    "descripcion": "Amplia casa de pueblo en venta en pleno centro de Santanyí, a pocos pasos de todos los servicios, restaurantes y tiendas. Con unos 600 m² construidos distribuidos en 3 plantas, esta propiedad ofrece múltiples posibilidades, desde una gran vivienda familiar hasta un pequeño hotel boutique o varios apartamentos independientes (según permisos).\nLa casa cuenta actualmente con 6 habitaciones, varias zonas de estar y terrazas, así como parking privado, un auténtico lujo en el centro del pueblo. Por sus generosas dimensiones y su distribución, es ideal para quienes desean reformar y crear un proyecto a medida en una de las zonas más demandadas de Santanyí.\nUna excelente oportunidad tanto para inversores como para quienes quieran vivir todo el año en el centro del pueblo, con mucho espacio y gran potencial de reforma.",
    "caracteristicas": [
     [
-     "Características básicas",
+     "Características",
      [
       "Chalet pareado",
       "3 plantas",
@@ -68,12 +68,7 @@
       "Segunda mano/para reformar",
       "Trastero",
       "Orientación sur",
-      "Construido en 1928"
-     ]
-    ],
-    [
-     "Certificado energético",
-     [
+      "Construido en 1928",
       "Inmueble exento"
      ]
     ]
@@ -83,6 +78,283 @@
     "Urb. can simonet 2",
     "Distrito Santanyí",
     "Santanyí"
+   ],
+   "firma": [
+    [
+     "01_Gemini_Generated_Image_byuurmbyuurmbyuu.png",
+     2376581,
+     1770283896
+    ],
+    [
+     "02_Gemini_Generated_Image_3trg7j3trg7j3trg.png",
+     2368079,
+     1770283834
+    ],
+    [
+     "03_Gemini_Generated_Image_3nugsz3nugsz3nug.png",
+     2265325,
+     1770284231
+    ],
+    [
+     "04_Gemini_Generated_Image_6uhawh6uhawh6uha.png",
+     1840012,
+     1770284764
+    ],
+    [
+     "05_Gemini_Generated_Image_813fwc813fwc813f.png",
+     1624290,
+     1770284980
+    ],
+    [
+     "06_Gemini_Generated_Image_kdslykkdslykkdsl.png",
+     1870452,
+     1770283741
+    ],
+    [
+     "07_Gemini_Generated_Image_20ombn20ombn20om.png",
+     1928652,
+     1770284383
+    ],
+    [
+     "08_Gemini_Generated_Image_khreu2khreu2khre.png",
+     2387719,
+     1770284282
+    ],
+    [
+     "09_Gemini_Generated_Image_lblcaelblcaelblc.png",
+     1614264,
+     1770284357
+    ],
+    [
+     "10_Gemini_Generated_Image_2xr3k62xr3k62xr3.png",
+     2042806,
+     1770284842
+    ],
+    [
+     "11_Gemini_Generated_Image_rgqpvxrgqpvxrgqp.png",
+     1641684,
+     1770283963
+    ],
+    [
+     "12_Gemini_Generated_Image_nab2uunab2uunab2.png",
+     1586697,
+     1770284085
+    ],
+    [
+     "13_Gemini_Generated_Image_nbwdrtnbwdrtnbwd.png",
+     2054235,
+     1770283703
+    ],
+    [
+     "14_Gemini_Generated_Image_t4tbh5t4tbh5t4tb.png",
+     1938359,
+     1770283800
+    ],
+    [
+     "15_Gemini_Generated_Image_yzsifqyzsifqyzsi.png",
+     1908500,
+     1770284920
+    ],
+    [
+     "16_Gemini_Generated_Image_do8982do8982do89.png",
+     2027778,
+     1770285810
+    ],
+    [
+     "17_3A1A5045.jpg",
+     2569229,
+     1752560166
+    ],
+    [
+     "18_3A1A4986.jpg",
+     2214422,
+     1752560166
+    ],
+    [
+     "19_3A1A5023.jpg",
+     2540228,
+     1752560166
+    ],
+    [
+     "20_3A1A5071.jpg",
+     2084357,
+     1752560166
+    ],
+    [
+     "21_3A1A5073.jpg",
+     2147804,
+     1752560166
+    ],
+    [
+     "22_3A1A5074-Editar.jpg",
+     2114991,
+     1752560166
+    ],
+    [
+     "23_3A1A4994-Editar.jpg",
+     2411106,
+     1752560166
+    ],
+    [
+     "24_3A1A5088.jpg",
+     2913860,
+     1752560166
+    ],
+    [
+     "25_3A1A4984.jpg",
+     2327209,
+     1752560166
+    ],
+    [
+     "26_3A1A5036.jpg",
+     1576316,
+     1752560166
+    ],
+    [
+     "27_3A1A5040.jpg",
+     2568845,
+     1752560166
+    ],
+    [
+     "28_3A1A5003.jpg",
+     2115883,
+     1752560166
+    ],
+    [
+     "29_3A1A5020-Editar.jpg",
+     2623832,
+     1752560166
+    ],
+    [
+     "30_3A1A5060-Editar.jpg",
+     1717197,
+     1752560166
+    ],
+    [
+     "31_3A1A5033-Editar.jpg",
+     2014766,
+     1752560166
+    ],
+    [
+     "32_3A1A5041-Editar.jpg",
+     2843287,
+     1752560166
+    ],
+    [
+     "33_3A1A5047.jpg",
+     2925860,
+     1752560166
+    ],
+    [
+     "34_3A1A5049.jpg",
+     3001072,
+     1752560166
+    ],
+    [
+     "35_3A1A5050.jpg",
+     2888383,
+     1752560166
+    ],
+    [
+     "36_3A1A5077.jpg",
+     2065285,
+     1752560166
+    ],
+    [
+     "37_3A1A5092.jpg",
+     3047854,
+     1752560166
+    ],
+    [
+     "38_3A1A5059.jpg",
+     2059924,
+     1752560166
+    ],
+    [
+     "39_3A1A5067-Editar.jpg",
+     2208690,
+     1752560166
+    ],
+    [
+     "40_3A1A5079-Editar.jpg",
+     1907199,
+     1752560166
+    ],
+    [
+     "41_3A1A5089.jpg",
+     2658231,
+     1752560166
+    ],
+    [
+     "42_3A1A5082-Editar.jpg",
+     1280810,
+     1752560166
+    ],
+    [
+     "43_3A1A5090.jpg",
+     2616456,
+     1752560166
+    ],
+    [
+     "44_3A1A5107.jpg",
+     2429500,
+     1752560166
+    ],
+    [
+     "45_3A1A5114.jpg",
+     3387076,
+     1752560166
+    ],
+    [
+     "46_3A1A5091.jpg",
+     2921429,
+     1752560166
+    ],
+    [
+     "47_3A1A5099.jpg",
+     3039186,
+     1752560166
+    ],
+    [
+     "48_3A1A5111.jpg",
+     3068654,
+     1752560166
+    ],
+    [
+     "49_3A1A5100.jpg",
+     2692752,
+     1752560166
+    ],
+    [
+     "50_3A1A5094.jpg",
+     3068157,
+     1752560166
+    ],
+    [
+     "51_3A1A5098.jpg",
+     2914931,
+     1752560166
+    ],
+    [
+     "52_3A1A5102.jpg",
+     2889205,
+     1752560166
+    ],
+    [
+     "53_3A1A5116.jpg",
+     2510831,
+     1752560166
+    ],
+    [
+     "datos.txt",
+     258,
+     1794313220
+    ],
+    [
+     "descripcion.txt",
+     1107,
+     1794313221
+    ]
    ]
   },
   {
@@ -93,19 +365,19 @@
    "zona": "Camp d'En Serralta",
    "municipio": "Palma",
    "cat": "Piso",
-   "precio": 850000,
+   "precio": 795000,
    "m2": 145,
    "hab": 4,
    "banos": 3,
    "extras": "5ª planta · ascensor · vistas al mar",
    "badge": "Destacado",
    "grupo": "Palma",
-   "fotos": 21,
-   "carpeta": null,
+   "fotos": 16,
+   "carpeta": "Piso Paseo Mallorca vistas",
    "descripcion": "Exclusiva propiedad en la quinta planta del Paseo Mallorca\nUbicada en una de las avenidas más prestigiosas y cotizadas de Palma, esta extraordinaria vivienda en quinta planta ofrece una oportunidad única para crear una residencia de lujo completamente personalizada.\nLa propiedad dispone de cuatro amplios dormitorios y tres baños, con una distribución que permite múltiples posibilidades de reforma para adaptarla a los más altos estándares de confort y diseño.\nSu mayor atractivo reside en las espectaculares vistas completamente despejadas, que se extienden sobre el Paseo Mallorca, el torrente de Sa Riera y la Bahía de Palma, ofreciendo una panorámica privilegiada que alcanza el mar y el puerto de Palma. Gracias a su altura y orientación, la vivienda disfruta de una magnífica entrada de luz natural durante todo el día y de unas vistas difíciles de encontrar en pleno centro de la ciudad.\nSituada en una ubicación privilegiada, combina la tranquilidad de una amplia avenida arbolada con la proximidad inmediata al casco histórico, Jaime III, Santa Catalina, el puerto y los mejores restaurantes, comercios y servicios de Palma. El Paseo Mallorca discurre junto al torrente de Sa Riera y constituye uno de los ejes residenciales más exclusivos de la ciudad.\nUna propiedad con un enorme potencial, ideal para quienes buscan diseñar una vivienda exclusiva en una de las mejores direcciones de Palma, disfrutando de amplitud, luminosidad y unas vistas verdaderamente excepcionales.",
    "caracteristicas": [
     [
-     "Características básicas",
+     "Características",
      [
       "145 m² construidos, 137 m² útiles",
       "4 habitaciones",
@@ -116,19 +388,9 @@
       "Orientación sur, este",
       "Construido en 1965",
       "No dispone de calefacción",
-      "Solo acceso exterior adaptado para personas con movilidad reducida"
-     ]
-    ],
-    [
-     "Edificio",
-     [
+      "Solo acceso exterior adaptado para personas con movilidad reducida",
       "5ª planta exterior",
-      "Con ascensor"
-     ]
-    ],
-    [
-     "Certificado energético",
-     [
+      "Con ascensor",
       "Consumo: 100 kWh/m² año",
       "Emisiones: 10 kg CO2/m² año"
      ]
@@ -139,6 +401,98 @@
     "Barrio Camp d'En Serralta",
     "Distrito Es Forti - Son Cotoner - Son Dameto",
     "Palma de Mallorca"
+   ],
+   "firma": [
+    [
+     "01_IMG_6987.jpg",
+     6988699,
+     1783342472
+    ],
+    [
+     "02_IMG_6990.jpg",
+     5118596,
+     1783342468
+    ],
+    [
+     "03_IMG_6991.jpg",
+     5105383,
+     1783342466
+    ],
+    [
+     "04_IMG_6941.jpg",
+     4677567,
+     1783342506
+    ],
+    [
+     "05_IMG_6947.jpg",
+     3883108,
+     1783342504
+    ],
+    [
+     "06_IMG_6959.jpg",
+     5583184,
+     1783342494
+    ],
+    [
+     "07_IMG_6961.jpg",
+     5168268,
+     1783342490
+    ],
+    [
+     "08_IMG_6972.jpg",
+     4392071,
+     1783342488
+    ],
+    [
+     "09_IMG_6973.jpg",
+     4320403,
+     1783342486
+    ],
+    [
+     "10_IMG_6950.jpg",
+     3914647,
+     1783342500
+    ],
+    [
+     "11_IMG_6951.jpg",
+     4091724,
+     1783342498
+    ],
+    [
+     "12_IMG_6955.jpg",
+     3880885,
+     1783342496
+    ],
+    [
+     "13_IMG_6981.jpg",
+     4596625,
+     1783342480
+    ],
+    [
+     "14_IMG_6978.jpg",
+     4190090,
+     1783342482
+    ],
+    [
+     "15_IMG_6983.jpg",
+     4904302,
+     1783342476
+    ],
+    [
+     "16_IMG_6985.jpg",
+     5087678,
+     1783342474
+    ],
+    [
+     "datos.txt",
+     305,
+     1794308914
+    ],
+    [
+     "descripcion.txt",
+     1884,
+     1794308172
+    ]
    ]
   },
   {
@@ -198,64 +552,6 @@
    "ubicacion": [
     "Distrito Costa d'En Blanes",
     "Calvià"
-   ]
-  },
-  {
-   "id": "109972292",
-   "origen": "idealista",
-   "operacion": "venta",
-   "titulo": "Planta baja en Santa Catalina",
-   "zona": "Santa Catalina",
-   "municipio": "Palma",
-   "cat": "Piso",
-   "precio": 490000,
-   "m2": 67,
-   "hab": 1,
-   "banos": 1,
-   "extras": "reformado",
-   "badge": "",
-   "grupo": "Palma",
-   "fotos": 20,
-   "carpeta": null,
-   "descripcion": "**Planta baja en Venta en Santa Catalina, Palma**\n\nDescubre este encantador piso de planta baja en el corazón del vibrante barrio de Santa Catalina, Palma. Con una superficie de 67 m2, este hogar fue completamente reformado en 2005, combinando la esencia de su construcción original de 1937 con las comodidades modernas que buscas. Su luminoso salón invita a disfrutar de momentos inolvidables, mientras que el acogedor dormitorio y el funcional baño ofrecen el refugio perfecto para parejas o solteros.\n\nEl piso cuenta con armarios empotrados que optimizan el espacio y un patio-terraza interior de 9 m2, ideal para relajarse al aire libre. La calefacción y el aire acondicionado garantizan confort durante todo el año, haciendo de este lugar un hogar acogedor en cualquier estación. Además, la ubicación es inmejorable: rodeado de restaurantes, tiendas y mercados locales, tendrás todo lo que necesitas a tu alcance.\n\nNo pierdas la oportunidad de vivir en un entorno lleno de vida y encanto. Este piso es una excelente opción tanto para inversión como para disfrutar de la calidad de vida que ofrece Santa Catalina. ¡Ven a visitarlo y déjate enamorar!",
-   "caracteristicas": [
-    [
-     "Características básicas",
-     [
-      "67 m² construidos, 57 m² útiles",
-      "1 habitación",
-      "1 baño",
-      "Terraza",
-      "Segunda mano/buen estado",
-      "Armarios empotrados",
-      "No dispone de calefacción"
-     ]
-    ],
-    [
-     "Edificio",
-     [
-      "Bajo exterior",
-      "Sin ascensor"
-     ]
-    ],
-    [
-     "Equipamiento",
-     [
-      "Aire acondicionado"
-     ]
-    ],
-    [
-     "Certificado energético",
-     [
-      "Consumo: 382,6 kWh/m² año"
-     ]
-    ]
-   ],
-   "ubicacion": [
-    "Calle de Monterrey",
-    "Barrio Sta Catalina - El Jonquet",
-    "Distrito Sta Catalina - Son Armadans - Maritim",
-    "Palma de Mallorca"
    ]
   },
   {
@@ -385,64 +681,6 @@
    ]
   },
   {
-   "id": "110605909",
-   "origen": "idealista",
-   "operacion": "venta",
-   "titulo": "Apartamento reformado en el Paseo de Mallorca",
-   "zona": "Sant Jaume",
-   "municipio": "Palma",
-   "cat": "Piso",
-   "precio": 290000,
-   "m2": 40,
-   "hab": 1,
-   "banos": 1,
-   "extras": "ascensor",
-   "badge": "",
-   "grupo": "Palma",
-   "fotos": 15,
-   "carpeta": null,
-   "descripcion": "Este encantador apartamento reformado te ofrece 40 m2 de espacio perfectamente aprovechados. Al entrar, te recibe un acogedor recibidor que te guía hacia una cocina completamente equipada con electrodomésticos modernos, incluyendo lavavajillas y horno. La sala de estar, con su televisión, es el lugar ideal para relajarse tras un día explorando la ciudad. El dormitorio, con un canapé y puertas correderas, garantiza privacidad y confort.\n\nEl baño cuenta con una ducha moderna y práctica. Además, este apartamento dispone de tres armarios empotrados, ofreciendo amplio espacio de almacenamiento. Situado en la primera planta de un edificio con ascensor, disfrutarás de la comodidad del acceso fácil y de una orientación este que asegura luz natural durante el día. Con calefacción y aire acondicionado por bomba de frío/calor, estarás cómodo en cualquier estación. ¡Listo para entrar a vivir y disfrutar de todas las comodidades en pleno centro!",
-   "caracteristicas": [
-    [
-     "Características básicas",
-     [
-      "40 m² construidos, 39 m² útiles",
-      "1 habitación",
-      "1 baño",
-      "Segunda mano/buen estado",
-      "Armarios empotrados",
-      "Orientación este",
-      "No dispone de calefacción"
-     ]
-    ],
-    [
-     "Edificio",
-     [
-      "1ª planta exterior",
-      "Con ascensor"
-     ]
-    ],
-    [
-     "Equipamiento",
-     [
-      "Aire acondicionado"
-     ]
-    ],
-    [
-     "Certificado energético",
-     [
-      "Consumo: 382,6 kWh/m² año"
-     ]
-    ]
-   ],
-   "ubicacion": [
-    "Paseo de Mallorca",
-    "Barrio Sant Jaume",
-    "Distrito Ciutat Antigua",
-    "Palma de Mallorca"
-   ]
-  },
-  {
    "id": "110311746",
    "origen": "idealista",
    "operacion": "venta",
@@ -499,127 +737,6 @@
     "Calle de Lluís Vives",
     "Barrio Bons Aires",
     "Distrito Las Avenidas",
-    "Palma de Mallorca"
-   ]
-  },
-  {
-   "id": "110715968",
-   "origen": "idealista",
-   "operacion": "venta",
-   "titulo": "Ático en la Avenida de Alemania",
-   "zona": "La Missió - Mercat",
-   "municipio": "Palma",
-   "cat": "Ático",
-   "precio": 1200000,
-   "m2": 180,
-   "hab": 4,
-   "banos": 3,
-   "extras": "50 m² de terraza · ascensor",
-   "badge": "",
-   "grupo": "Palma",
-   "fotos": 31,
-   "carpeta": null,
-   "descripcion": "¡Descubre este espectacular ático en Via Alemania, el hogar de tus sueños en el corazón de Palma! Con una superficie construida de 140 m2 y 50 m2 de terraza, este acogedor ático ofrece un estilo de vida único, combinando la comodidad de una vivienda unifamiliar con la vibrante vida urbana. La luminosidad inunda cada rincón gracias a sus amplios ventanales, mientras que las excepcionales vistas a la ciudad y a la Catedral te dejarán sin aliento.\n\nImagina disfrutar de una espectacular terraza con zona de jacuzzi, perfecta para relajarte después de un largo día. El salón comedor, abierto a la terraza, crea un ambiente ideal para compartir momentos inolvidables con amigos y familiares. La cocina integrada y funcional es un sueño hecho realidad para los amantes de la gastronomía.\n\nEste ático cuenta con cuatro generosos dormitorios, tres de ellos con baño en suite, ofreciendo privacidad y confort para toda la familia. Además, dispone de armarios empotrados y un trastero, asegurando que cada espacio esté optimizado. Con calefacción por bomba de frío/calor y aire acondicionado, vivir aquí es sinónimo de bienestar durante todo el año.\n\nNo pierdas la oportunidad de entrar a vivir en este magnífico ático que combina todas las comodidades de una casa en el centro de la ciudad. ¡Contáctanos para más información y ven a verlo!",
-   "caracteristicas": [
-    [
-     "Características básicas",
-     [
-      "180 m² construidos, 170 m² útiles",
-      "4 habitaciones",
-      "3 baños",
-      "Terraza",
-      "Segunda mano/buen estado",
-      "Armarios empotrados",
-      "Trastero",
-      "Orientación oeste",
-      "Construido en 1973",
-      "No dispone de calefacción"
-     ]
-    ],
-    [
-     "Edificio",
-     [
-      "10ª planta exterior",
-      "Con ascensor"
-     ]
-    ],
-    [
-     "Equipamiento",
-     [
-      "Aire acondicionado"
-     ]
-    ],
-    [
-     "Certificado energético",
-     [
-      "Consumo: 382,6 kWh/m² año"
-     ]
-    ]
-   ],
-   "ubicacion": [
-    "Avenida de Alemania",
-    "Barrio La Missio - Mercat",
-    "Distrito Ciutat Antigua",
-    "Palma de Mallorca"
-   ]
-  },
-  {
-   "id": "109986567",
-   "origen": "idealista",
-   "operacion": "venta",
-   "titulo": "Piso reformado en el Paseo de Mallorca",
-   "zona": "Camp d'En Serralta",
-   "municipio": "Palma",
-   "cat": "Piso",
-   "precio": 850000,
-   "m2": 170,
-   "hab": 3,
-   "banos": 4,
-   "extras": "chimenea",
-   "badge": "",
-   "grupo": "Palma",
-   "fotos": 24,
-   "carpeta": null,
-   "descripcion": "¡Descubre el hogar de tus sueños en este impresionante piso en venta! Con una superficie útil de 142 m2, este amplio y diáfano espacio ha sido reformado con las mejores calidades hace solo 5 años. Al entrar, te recibe un acogedor recibidor distribuidor que te guiará a través de un luminoso salón comedor, donde una chimenea añade un toque de calidez y elegancia. La cocina abierta se integra perfectamente con el resto del ambiente, ideal para disfrutar de momentos inolvidables en compañía.\n\nEste magnífico piso cuenta con 3 dormitorios dobles, cada uno con su propio baño en suite, garantizando privacidad y comodidad. El dormitorio principal destaca por su amplio vestidor. Además, hay un aseo adicional de cortesía para tus visitas. La salida a la terraza posterior ofrece un espacio exterior donde relajarse y disfrutar del aire libre.\n\nCon un cuarto de lavandería y un trastero, este piso combina funcionalidad y estilo. Su excelente aislamiento y orientación sur aseguran una luminosidad excepcional durante todo el día, creando un ambiente cálido y acogedor. La calefacción eléctrica y el aire acondicionado garantizan el confort en cualquier época del año.\n\nUbicado en una zona perfecta, este inmueble no solo destaca por su buen gusto, sino que también ofrece la posibilidad de instalar un ascensor. ¡No dejes pasar la oportunidad de vivir en este espectacular piso! Ven a visitarlo y enamórate de cada rincón.",
-   "caracteristicas": [
-    [
-     "Características básicas",
-     [
-      "170 m² construidos, 142 m² útiles",
-      "3 habitaciones",
-      "4 baños",
-      "Terraza",
-      "Segunda mano/buen estado",
-      "Armarios empotrados",
-      "Trastero",
-      "Orientación sur",
-      "No dispone de calefacción"
-     ]
-    ],
-    [
-     "Edificio",
-     [
-      "2ª planta exterior",
-      "Sin ascensor"
-     ]
-    ],
-    [
-     "Equipamiento",
-     [
-      "Aire acondicionado"
-     ]
-    ],
-    [
-     "Certificado energético",
-     [
-      "Consumo: 382,6 kWh/m² año"
-     ]
-    ]
-   ],
-   "ubicacion": [
-    "Paseo de Mallorca",
-    "Barrio Camp d'En Serralta",
-    "Distrito Es Forti - Son Cotoner - Son Dameto",
     "Palma de Mallorca"
    ]
   },
@@ -794,6 +911,48 @@
    ]
   },
   {
+   "id": "113061221",
+   "origen": "idealista",
+   "operacion": "venta",
+   "titulo": "Parcela rústica edificable en Binifuell",
+   "zona": "Binifuell",
+   "municipio": "Sencelles",
+   "cat": "Terreno",
+   "precio": 229000,
+   "m2": 15950,
+   "hab": 0,
+   "banos": null,
+   "extras": "400 m² edificables · urbanizable",
+   "badge": "",
+   "grupo": "Mallorca",
+   "fotos": 7,
+   "carpeta": null,
+   "descripcion": "Parcela rústica edificable de 15.950 m² en Binifuell – Sencelles\n\nUn entorno privilegiado donde construir la casa de tus sueños, rodeado de naturaleza y a tan solo 25 minutos de Palma.\n\nEn el encantador llogaret de Binifuell, perteneciente al municipio de Sencelles, se encuentra esta magnífica parcela rústica edificable de 15.950 m², situada en uno de esos rincones de Mallorca que todavía conservan su esencia más auténtica.\n\nLa finca destaca por su entorno natural, su tranquilidad y su carácter típicamente mallorquín. Rodeada de vegetación mediterránea, campos abiertos y tradicionales caminos flanqueados por muros de piedra, ofrece un escenario ideal para quienes buscan privacidad y calidad de vida.\n\nLa parcela ofrece la posibilidad de construir una vivienda unifamiliar, siempre sujeta al cumplimiento de la normativa urbanística vigente y a la obtención de las correspondientes licencias y autorizaciones.\n\nLa propiedad se encuentra muy próxima a Binifuell, un pequeño núcleo histórico de origen islámico, con antiguas construcciones de piedra y un encanto rural muy especial.\n\nSu ubicación combina perfectamente tranquilidad y comodidad: a tan solo 5 minutos de Sencelles, donde se encuentran los servicios necesarios para el día a día, como comercios, supermercados, farmacia y restaurantes, y a aproximadamente 25 minutos de Palma.\n\nUna excelente oportunidad para desarrollar un proyecto residencial a medida, en una finca de amplias dimensiones y rodeada de la belleza natural del interior de Mallorca.\n\nUn lugar especial para quienes sueñan con una vivienda en el campo, sin renunciar a la cercanía de la ciudad.",
+   "caracteristicas": [
+    [
+     "Características básicas",
+     [
+      "Superficie total del terreno 15.950 m²",
+      "Superficie mínima en venta 15.950 m²",
+      "Superficie edificable 400 m²",
+      "Acceso por carretera",
+      "A 1,8 km del núcleo urbano más cercano"
+     ]
+    ],
+    [
+     "Situación urbanística",
+     [
+      "Terreno urbanizable",
+      "Calificado para residencial unifamiliar (chalets)"
+     ]
+    ]
+   ],
+   "ubicacion": [
+    "Camino de Binifuell",
+    "Sencelles"
+   ]
+  },
+  {
    "id": "112768195",
    "origen": "idealista",
    "operacion": "venta",
@@ -851,22 +1010,17 @@
    "extras": "300 m² edificables · licencias en trámite",
    "badge": "",
    "grupo": "Mallorca",
-   "fotos": 20,
-   "carpeta": null,
+   "fotos": 19,
+   "carpeta": "Terreno Cala Romantica proyecto",
    "descripcion": "Se vende terreno en Manacor con proyecto y licencias en trámite\n\nOportunidad única de adquirir un terreno en Manacor, ubicado a tan solo 5 minutos en coche del mar y de calas de gran belleza como Cala Romántica.\n\nLa parcela cuenta con proyecto de obra ya realizado y aprobado por el ayuntamiento, con licencias actualmente en trámite, cuya entrega está prevista para finales de 2026.\n\nEl proyecto contempla la construcción de una vivienda unifamiliar de aproximadamente 300 m², con piscina privada, diseñada para ofrecer comodidad, amplitud y un estilo de vida mediterráneo.\n\nIdeal tanto como vivienda habitual como inversión en una de las zonas más demandadas de Mallorca.\n\nPara más información, no dude en ponerse en contacto.",
    "caracteristicas": [
     [
-     "Características básicas",
+     "Características",
      [
       "Superficie total del terreno 42.000 m²",
       "Superficie mínima en venta 42.000 m²",
       "Superficie edificable 300 m²",
-      "Acceso por camino"
-     ]
-    ],
-    [
-     "Situación urbanística",
-     [
+      "Acceso por camino",
       "Terreno urbanizable",
       "Calificado para otra"
      ]
@@ -876,76 +1030,113 @@
     "Parcela 330 poligono, 33",
     "Distrito Manacor Centro",
     "Manacor"
-   ]
-  },
-  {
-   "id": "112546891",
-   "origen": "idealista",
-   "operacion": "alquiler",
-   "titulo": "Ático con terraza y piscina en Sant Agustí",
-   "zona": "Sant Agustí",
-   "municipio": "Palma",
-   "cat": "Ático",
-   "precio": 1500,
-   "m2": 60,
-   "hab": 1,
-   "banos": 1,
-   "extras": "terraza · piscina · parking incluido",
-   "badge": "",
-   "grupo": "Palma",
-   "fotos": 24,
-   "carpeta": null,
-   "descripcion": "Bonito ático de 60 m² situado en una zona tranquila y agradable de San Agustín, en muy buen estado de conservación y listo para entrar a vivir.\nLa vivienda dispone de un dormitorio, un baño completo y un luminoso salón-comedor con acceso a una magnífica terraza, perfecta para disfrutar del buen clima, relajarse al aire libre o crear una agradable zona de comedor exterior.\n\nCuenta con cocina equipada, calefacción y aire acondicionado, ofreciendo confort durante todo el año. El edificio dispone de ascensor.\n\nAdemás, la propiedad incluye plaza de parking y trastero, aportando comodidad y un práctico espacio de almacenamiento.\n\nUna excelente oportunidad para quienes buscan un ático cómodo, funcional y en buen estado, con el atractivo añadido de una buena terraza en una de las zonas más agradables de San Agustín.",
-   "caracteristicas": [
-    [
-     "El anunciante lo ve apropiado para",
-     [
-      "Máximo 2 personas"
-     ]
-    ],
-    [
-     "Características básicas",
-     [
-      "60 m² construidos, 58 m² útiles",
-      "1 habitación",
-      "1 baño",
-      "Terraza",
-      "Plaza de garaje incluida en el precio",
-      "Segunda mano/buen estado",
-      "Armarios empotrados",
-      "Trastero",
-      "Orientación sur",
-      "Cocina equipada y casa sin amueblar",
-      "Calefacción central"
-     ]
-    ],
-    [
-     "Edificio",
-     [
-      "3ª planta exterior",
-      "Con ascensor"
-     ]
-    ],
-    [
-     "Equipamiento",
-     [
-      "Aire acondicionado",
-      "Piscina",
-      "Jardín"
-     ]
-    ],
-    [
-     "Certificado energético",
-     [
-      "Inmueble exento"
-     ]
-    ]
    ],
-   "ubicacion": [
-    "Calle d'Adolf Vázquez Humasqué, 9",
-    "Barrio Sant Agustí",
-    "Distrito Genova - Bonanova - Sant Agustí",
-    "Palma de Mallorca"
+   "firma": [
+    [
+     "01_WhatsApp Image 2025-02-25 at 19.09.56 (2).jpeg",
+     475488,
+     1740562329
+    ],
+    [
+     "02_WhatsApp Image 2025-02-25 at 19.09.56 (1).jpeg",
+     431000,
+     1740562324
+    ],
+    [
+     "03_WhatsApp Image 2025-02-25 at 19.09.56 (3).jpeg",
+     446764,
+     1740562333
+    ],
+    [
+     "04_WhatsApp Image 2025-02-25 at 19.09.56 (4).jpeg",
+     387163,
+     1740562337
+    ],
+    [
+     "05_WhatsApp Image 2025-02-25 at 19.09.56.jpeg",
+     554066,
+     1740562316
+    ],
+    [
+     "06_WhatsApp Image 2025-02-25 at 19.09.56 (6).jpeg",
+     300406,
+     1740562344
+    ],
+    [
+     "07_WhatsApp Image 2025-02-25 at 19.09.56 (8).jpeg",
+     394778,
+     1740563282
+    ],
+    [
+     "08_WhatsApp Image 2025-02-25 at 19.09.56 (9).jpeg",
+     189879,
+     1740563286
+    ],
+    [
+     "09_WhatsApp Image 2025-02-25 at 19.09.56 (7).jpeg",
+     286178,
+     1740562351
+    ],
+    [
+     "10_WhatsApp Image 2025-02-25 at 19.09.57.jpeg",
+     249858,
+     1740563317
+    ],
+    [
+     "11_WhatsApp Image 2025-02-25 at 19.09.57 (1).jpeg",
+     147995,
+     1740563321
+    ],
+    [
+     "12_WhatsApp Image 2025-02-25 at 19.09.57 (2).jpeg",
+     261011,
+     1740563325
+    ],
+    [
+     "13_WhatsApp Image 2025-02-25 at 19.09.56 (5).jpeg",
+     364904,
+     1740562340
+    ],
+    [
+     "14_Captura de pantalla 2025-02-26 a las 11.27.25.jpg",
+     254523,
+     1740562104
+    ],
+    [
+     "15_WhatsApp Image 2025-02-05 at 20.06.08 (1).jpeg",
+     483060,
+     1739177886
+    ],
+    [
+     "16_WhatsApp Image 2025-02-05 at 20.06.08 (3).jpeg",
+     542806,
+     1739177894
+    ],
+    [
+     "17_WhatsApp Image 2025-02-05 at 20.06.08 (4).jpeg",
+     305286,
+     1739177899
+    ],
+    [
+     "18_WhatsApp Image 2026-01-12 at 12.22.34 (6).jpeg",
+     307713,
+     1768216964
+    ],
+    [
+     "19_WhatsApp Image 2025-02-05 at 20.06.08 (2).jpeg",
+     481552,
+     1739177889
+    ],
+    [
+     "datos.txt",
+     301,
+     1794308173
+    ],
+    [
+     "descripcion.txt",
+     923,
+     1794308173
+    ]
    ]
   },
   {
@@ -964,43 +1155,23 @@
    "badge": "",
    "grupo": "Palma",
    "fotos": 16,
-   "carpeta": null,
+   "carpeta": "Atico Sindicat reformado",
    "descripcion": "Exclusivo ático en la calle Sindicato, Palma de Mallorca\n\nEspectacular ático situado en la emblemática calle Sindicato, en pleno centro de Palma, en una finca de nueva reforma que combina diseño contemporáneo, confort y una ubicación privilegiada.\n\nLa propiedad se encuentra en un edificio completamente renovado, con viviendas nuevas y ascensor, ofreciendo un entorno moderno y elegante en una de las zonas más cotizadas de la ciudad.\n\nEl ático dispone de 2 amplias habitaciones, 2 baños completos y 1 aseo, con una distribución funcional pensada para disfrutar de la máxima comodidad. Se entrega completamente amueblado, con un estilo actual y cuidado, listo para entrar a vivir.\n\nUno de sus grandes atractivos es su impresionante terraza privada de 80 m², un espacio excepcional en pleno centro de Palma, ideal para disfrutar del clima mediterráneo, organizar comidas al aire libre, crear una zona chill-out o simplemente relajarse con total comodidad.\n\nUna propiedad única que combina la comodidad de una vivienda moderna, la amplitud de sus espacios exteriores y el privilegio de vivir en una ubicación céntrica, rodeada de comercios, restaurantes, servicios y todos los atractivos del casco histórico de Palma.\n\nUn ático exclusivo para quienes buscan diseño, comodidad y una espectacular terraza en el corazón de Palma.",
    "caracteristicas": [
     [
-     "El anunciante lo ve apropiado para",
+     "Características",
      [
-      "Máximo 2 personas"
-     ]
-    ],
-    [
-     "Características básicas",
-     [
+      "Máximo 2 personas",
       "160 m² construidos, 90 m² útiles",
       "2 habitaciones",
       "2 baños",
       "Terraza",
       "Segunda mano/buen estado",
       "Orientación sur",
-      "Amueblado y cocina equipada"
-     ]
-    ],
-    [
-     "Edificio",
-     [
+      "Amueblado y cocina equipada",
       "4ª planta exterior",
-      "Con ascensor"
-     ]
-    ],
-    [
-     "Equipamiento",
-     [
-      "Aire acondicionado"
-     ]
-    ],
-    [
-     "Certificado energético",
-     [
+      "Con ascensor",
+      "Aire acondicionado",
       "Consumo: 161 kWh/m² año",
       "Emisiones: 42 kg CO2/m² año"
      ]
@@ -1011,6 +1182,98 @@
     "Barrio Sindicat",
     "Distrito Ciutat Antigua",
     "Palma de Mallorca"
+   ],
+   "firma": [
+    [
+     "01_IMG_8002.HEIC",
+     2660833,
+     1791962796
+    ],
+    [
+     "02_IMG_8003.HEIC",
+     2989560,
+     1791962810
+    ],
+    [
+     "03_IMG_8005.HEIC",
+     2392143,
+     1791962828
+    ],
+    [
+     "04_IMG_8006.HEIC",
+     2469677,
+     1791962851
+    ],
+    [
+     "05_IMG_7997.HEIC",
+     2730143,
+     1791962731
+    ],
+    [
+     "06_IMG_7998.HEIC",
+     2904789,
+     1791962742
+    ],
+    [
+     "07_IMG_7999.HEIC",
+     2508073,
+     1791962761
+    ],
+    [
+     "08_IMG_8001.HEIC",
+     2561554,
+     1791962775
+    ],
+    [
+     "09_IMG_8016.HEIC",
+     3174401,
+     1791963168
+    ],
+    [
+     "10_IMG_8018.HEIC",
+     3391285,
+     1791963215
+    ],
+    [
+     "11_IMG_8009.HEIC",
+     3084232,
+     1791962958
+    ],
+    [
+     "12_IMG_8010.HEIC",
+     3107482,
+     1791962976
+    ],
+    [
+     "13_IMG_8014.HEIC",
+     2597857,
+     1791963035
+    ],
+    [
+     "14_IMG_8011.HEIC",
+     2707524,
+     1791963003
+    ],
+    [
+     "15_IMG_8013.HEIC",
+     2411003,
+     1791963023
+    ],
+    [
+     "16_IMG_8012.HEIC",
+     2415706,
+     1791963012
+    ],
+    [
+     "datos.txt",
+     279,
+     1794308174
+    ],
+    [
+     "descripcion.txt",
+     1638,
+     1794308174
+    ]
    ]
   },
   {
@@ -1072,6 +1335,74 @@
     "Avenida de Jaume III",
     "Barrio Sant Jaume",
     "Distrito Ciutat Antigua",
+    "Palma de Mallorca"
+   ]
+  },
+  {
+   "id": "113072602",
+   "origen": "idealista",
+   "operacion": "alquiler",
+   "titulo": "Piso reformado de temporada junto al mar en Coll d'en Rabassa",
+   "zona": "Coll d'en Rabassa",
+   "municipio": "Palma",
+   "cat": "Piso",
+   "precio": 1500,
+   "m2": 70,
+   "hab": 1,
+   "banos": 2,
+   "extras": "terraza 40 m² · amueblado · temporada",
+   "badge": "Temporada",
+   "grupo": "Palma",
+   "fotos": 27,
+   "carpeta": null,
+   "descripcion": "Apartamento de Temporada en Coll d'en Rabassa - Diseño Mediterráneo a Pasos del Mar\n\nTe presentamos este encantador apartamento de temporada completamente reformado en Coll d'en Rabassa, ubicado a tan solo unos metros de la playa y a 10 minutos de Palma. Un lugar ideal para disfrutar del estilo de vida mediterráneo sin renunciar a la comodidad y la proximidad a todos los servicios.\n\nEspacios Luminosos y Abiertos\n\nEste inmueble de 70 m² construidos y útiles destaca por su diseño contemporáneo y funcional. El salón-comedor es una joya con amplios ventanales que inundan de luz natural cada rincón, con acceso directo a la terraza soleada de 40 m² orientada al sur. La cocina completamente equipada conecta con una terracita posterior donde encontrarás la zona de lavandería, perfecta para mantener todo organizado durante tu estancia.\n\nDormitorios y Baños Completos\n\nDispone de 1 dormitorio doble principal con baño en suite y vestidor convertible en segundo dormitorio simple, ideal si necesitas espacio adicional. Además, cuenta con un segundo baño completo equipado con bañera.\n\nUbicado en 1. º piso exterior con acceso por escaleras en una comunidad con pocos vecinos, lo que asegura tranquilidad y privacidad.\n\nUbicación Estratégica\n\nA pasos de la playa y con acceso inmediato a todos los servicios de Palma. Perfecto para quienes buscan combinar relax playero con la proximidad a la capital.\n\n¡No esperes más, contacta con nosotros para conocer este maravilloso espacio!",
+   "caracteristicas": [
+    [
+     "El anunciante lo ve apropiado para",
+     [
+      "Máximo 2 personas",
+      "Niños"
+     ]
+    ],
+    [
+     "Características básicas",
+     [
+      "70 m² construidos, 67 m² útiles",
+      "1 habitación",
+      "2 baños",
+      "Terraza y balcón",
+      "Segunda mano/buen estado",
+      "Trastero",
+      "Orientación sur",
+      "Amueblado y cocina equipada",
+      "Calefacción individual: Eléctrica"
+     ]
+    ],
+    [
+     "Equipamiento",
+     [
+      "Aire acondicionado"
+     ]
+    ],
+    [
+     "Edificio",
+     [
+      "1ª planta exterior",
+      "Sin ascensor"
+     ]
+    ],
+    [
+     "Certificado energético",
+     [
+      "Consumo: 104,9 kWh/m² año",
+      "Emisiones: 32,9 kg CO2/m² año"
+     ]
+    ]
+   ],
+   "ubicacion": [
+    "Calle Arapiles",
+    "Barrio Coll d'En Rabassa",
+    "Distrito Playa de Palma",
     "Palma de Mallorca"
    ]
   }

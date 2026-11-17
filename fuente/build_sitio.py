@@ -30,7 +30,7 @@ negocio = {
     "name": "Inmobiliaria JAIME III",
     "legalName": "INMOBILIARIA JAIME III, S.C.P.",
     "url": DOMINIO + "/",
-    "logo": DOMINIO + "/fuente/logo.png",
+    "logo": DOMINIO + "/icon-512.png",
     "image": DOMINIO + "/portada/portada-2.jpg",
     "telephone": "+34 691 740 124",
     "email": "miguelp@jaimetercero.com",
@@ -53,7 +53,12 @@ head = f"""<!DOCTYPE html>
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <meta name="description" content="{html.escape(descripcion)}">
 <link rel="canonical" href="{DOMINIO}/">
-<link rel="icon" type="image/png" href="fuente/logo.png">
+<link rel="icon" href="/favicon.ico" sizes="any">
+<link rel="icon" type="image/png" sizes="48x48" href="/favicon-48x48.png">
+<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="192x192" href="/icon-192.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="manifest" href="/site.webmanifest">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Inmobiliaria JAIME III">
 <meta property="og:title" content="Inmobiliaria JAIME III · Pisos y casas en venta y alquiler en Palma y Mallorca">
