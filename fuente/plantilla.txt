@@ -785,9 +785,10 @@ const num=v=>{const n=parseInt(String(v).replace(/\D/g,""),10);return isNaN(n)?n
 let op="venta";
 const normT=s=>s.normalize("NFD").replace(/[\u0300-\u036f]/g,"").toLowerCase().trim();
 const muniDe=f=>{const p=((f.querySelector(".ficha-zona")||{}).textContent||"").split("·");return normT(p.length>1?p[p.length-2]:"")};
+const ALIAS={pollensa:"pollenca",alcudia:"alcudia",sancellas:"sencelles",santany:"santanyi",calvia:"calvia",soller:"soller",deya:"deia",andraitx:"andratx",andrach:"andratx",genova:"genova"};
 function contarMunis(){const c={};fichas.forEach(f=>{if(f.dataset.op===op){const k=muniDe(f);c[k]=(c[k]||0)+1}});[...$("b-muni").options].forEach(o=>{if(o.value)o.textContent=o.dataset.n+(c[o.value]?" ("+c[o.value]+")":"")})}
 function filtrar(){contarMunis();
-  const mu=$("b-muni").value,z=$("b-zona").value.trim().toLowerCase(),pmin=num($("b-pmin").value),pmax=num($("b-pmax").value),
+  const mu=$("b-muni").value,zs=normT($("b-zona").value).split(/[\s,]+/).filter(Boolean).map(w=>ALIAS[w]||w),k=v=>v!=null&&op==="venta"&&v<10000?v*1000:v,pmin=k(num($("b-pmin").value)),pmax=k(num($("b-pmax").value)),
   t=$("b-tipo").value,smin=num($("b-smin").value),smax=num($("b-smax").value),h=+$("b-hab").value,bn=+$("b-banos").value,o=$("orden").value;
   let lista=[...fichas];
   if(o==="asc")lista.sort((a,b)=>a.dataset.precio-b.dataset.precio);
@@ -796,7 +797,7 @@ function filtrar(){contarMunis();
   else lista.sort((a,b)=>a.dataset.orden-b.dataset.orden);
   let n=0;
   lista.forEach(f=>{const d=f.dataset,p=+d.precio,m=+d.m2;
-    const ok=d.op===op&&(!mu||muniDe(f)===mu)&&(!z||d.busca.includes(z))&&(pmin==null||p>=pmin)&&(pmax==null||p<=pmax)&&(!t||d.cat===t)&&(smin==null||m>=smin)&&(smax==null||m<=smax)&&(+d.hab>=h)&&(+d.banos>=bn);
+    const ok=d.op===op&&(!mu||muniDe(f)===mu)&&zs.every(w=>normT(d.busca+" "+(f.textContent||"")).includes(w))&&(pmin==null||p>=pmin)&&(pmax==null||p<=pmax)&&(!t||d.cat===t)&&(smin==null||m>=smin)&&(smax==null||m<=smax)&&(+d.hab>=h)&&(+d.banos>=bn);
     f.hidden=!ok;if(ok)n++;rej.appendChild(f)});
   $("contador").textContent=n+(n===1?" inmueble encontrado":" inmuebles encontrados");
   $("vacio").hidden=n>0;
